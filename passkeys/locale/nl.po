@@ -1,0 +1,2948 @@
+# Dutch translations for Passkeys.
+# Copyright (C) 2026 Frappe Passkeys Contributors
+# This file is distributed under the same license as the Passkeys project.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Passkeys VERSION\n"
+"Report-Msgid-Bugs-To: hello@andrometiq.com\n"
+"POT-Creation-Date: 2026-10-22 23:38+0018\n"
+"PO-Revision-Date: 2026-10-22 23:50+0000\n"
+"Last-Translator: \n"
+"Language-Team: Dutch\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: passkeys/enforcement_admin.py:35
+msgid "(empty)"
+msgstr "(leeg)"
+
+#: passkeys/notifications.py:202
+msgid "(from IP {0})"
+msgstr "(vanaf IP {0})"
+
+#. Content of the 'Resolved Configuration' (HTML) field in DocType 'Passkey
+#. Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid ""
+"<p class=\"text-muted small\">The resolved RP ID and origins are "
+"validated when a login mode is enabled.</p>"
+msgstr ""
+"<p class=\"text-muted small\">De bepaalde RP ID en origins worden "
+"gecontroleerd als een inlogmodus wordt ingeschakeld.</p>"
+
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.py:84
+msgid "A WebAuthn credential ID digest is immutable."
+msgstr "De digest van een WebAuthn-credential-ID kan niet worden gewijzigd."
+
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.py:82
+msgid "A WebAuthn credential ID is immutable."
+msgstr "Een WebAuthn-credential-ID kan niet worden gewijzigd."
+
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.py:86
+msgid "A WebAuthn credential public key is immutable."
+msgstr "De publieke sleutel van een WebAuthn-credential kan niet worden gewijzigd."
+
+#: passkeys/passkeys/doctype/webauthn_user_handle/webauthn_user_handle.py:86
+msgid "A WebAuthn user handle is immutable."
+msgstr "Een WebAuthn-gebruikershandle kan niet worden gewijzigd."
+
+#: passkeys/confirm.py:475
+msgid "A confirmation action is required."
+msgstr "Er is een bevestigingsactie nodig."
+
+#: passkeys/posture.py:343
+msgid ""
+"A custom app can register its own auth hooks or login endpoints, which "
+"cannot be detected deterministically."
+msgstr ""
+"Een eigen app kan zijn eigen authenticatiehooks of inlogeindpunten "
+"toevoegen. Die kunnen niet met zekerheid worden opgespoord."
+
+#: passkeys/notifications.py:35
+msgid ""
+"A new passkey ({0}) was just added to your account on {1}.{2} If this "
+"wasn't you, remove it and change your password immediately."
+msgstr ""
+"Er is zojuist een nieuwe passkey ({0}) aan je account toegevoegd op "
+"{1}.{2} Was jij dit niet? Verwijder de passkey dan en wijzig meteen je "
+"wachtwoord."
+
+#: passkeys/notifications.py:61
+msgid ""
+"A passkey ({0}) on your account was disabled by an administrator on {1}. "
+"You can no longer sign in with it. Contact your administrator if this was"
+" unexpected."
+msgstr ""
+"Een beheerder heeft de passkey ({0}) van je account uitgeschakeld op {1}."
+" Je kunt er niet meer mee inloggen. Neem contact op met je beheerder als "
+"dit niet de bedoeling was."
+
+#: passkeys/notifications.py:48
+msgid ""
+"A passkey ({0}) was removed from your account on {1}.{2} If this wasn't "
+"you, review your passkeys and sign-in methods."
+msgstr ""
+"De passkey ({0}) is op {1} van je account verwijderd.{2} Was jij dit "
+"niet? Controleer dan je passkeys en inlogmethoden."
+
+#: passkeys/api/credentials.py:89 passkeys/api/credentials.py:93
+msgid "A passkey name cannot be empty."
+msgstr "De naam van een passkey mag niet leeg zijn."
+
+#: passkeys/notifications.py:60
+msgid "A passkey on your account was disabled"
+msgstr "Een passkey op je account is uitgeschakeld"
+
+#: passkeys/notifications.py:73
+msgid "A passkey on your account was flagged"
+msgstr "Een passkey op je account is gemarkeerd"
+
+#: passkeys/notifications.py:34
+msgid "A passkey was added to your account"
+msgstr "Er is een passkey aan je account toegevoegd"
+
+#: passkeys/notifications.py:47
+msgid "A passkey was removed from your account"
+msgstr "Er is een passkey van je account verwijderd"
+
+#: passkeys/posture.py:251
+msgid ""
+"A sign-count regression (a possible cloned passkey) is flagged and the "
+"owner notified, but the sign-in still succeeds."
+msgstr ""
+"Als de tellerstand lager is dan eerder (mogelijk een gekloonde passkey), "
+"wordt dit gemarkeerd en krijgt de eigenaar een melding. Inloggen lukt dan"
+" nog wel."
+
+#: passkeys/notifications.py:74
+msgid ""
+"A sign-in with your passkey ({0}) on {1} triggered a security check "
+"({2}). This can indicate a cloned authenticator. If you did not recognize"
+" a recent sign-in, remove this passkey and review your account."
+msgstr ""
+"Bij het inloggen met je passkey ({0}) op {1} sloeg een "
+"beveiligingscontrole aan ({2}). Dit kan wijzen op een gekloonde "
+"authenticator. Herken je een recente inlogpoging niet? Verwijder deze "
+"passkey dan en controleer je account."
+
+#: passkeys/posture.py:197
+msgid "A user can sign in through an emailed link without a passkey."
+msgstr "Een gebruiker kan inloggen via een e-maillink, zonder passkey."
+
+#: passkeys/posture.py:119
+msgid "A user can sign in through these identity providers without a passkey."
+msgstr "Een gebruiker kan via deze identiteitsproviders inloggen zonder passkey."
+
+#: passkeys/posture.py:144
+msgid ""
+"A user can sign in with their LDAP / Active Directory password instead of"
+" a passkey."
+msgstr ""
+"Een gebruiker kan inloggen met zijn LDAP- of Active Directory-wachtwoord "
+"in plaats van een passkey."
+
+#: passkeys/notifications.py:122
+msgid "A user cannot satisfy passkey enrollment enforcement"
+msgstr ""
+"Een gebruiker kan niet voldoen aan de verplichting om een passkey in te "
+"stellen"
+
+#. Description of the 'Roles' (Table MultiSelect) field in DocType 'Passkey
+#. Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "A user is in scope if they hold any of these roles."
+msgstr "Een gebruiker valt binnen het bereik als hij een van deze rollen heeft."
+
+#: passkeys/passkey.py:492
+msgid "A verification code could not be started for this sign-in."
+msgstr "Er kon geen verificatiecode worden gestart voor dit inloggen."
+
+#: passkeys/passkey.py:480
+msgid "A verification code is not available for this sign-in."
+msgstr "Er is geen verificatiecode beschikbaar voor dit inloggen."
+
+#. Label of the aaguid (Data) field in DocType 'WebAuthn Credential'
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.json
+msgid "AAGUID"
+msgstr "AAGUID"
+
+#: passkeys/api/credentials.py:233
+msgid "Add a passkey before turning on passkey-only login."
+msgstr "Voeg een passkey toe voordat je inloggen met alleen een passkey aanzet."
+
+#. Description of the 'Passkey Origins' (Small Text) field in DocType 'Passkey
+#. Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid ""
+"Additional allowed origins, one per line (explicit ports allowed). Each "
+"must be HTTPS and within the RP ID's scope."
+msgstr ""
+"Extra toegestane origins, één per regel (expliciete poorten zijn "
+"toegestaan). Elke origin moet HTTPS gebruiken en binnen het bereik van de"
+" RP ID vallen."
+
+#. Description of the 'Always require a passkey from System Managers' (Check)
+#. field in DocType 'Passkey Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Adds System Managers and Administrator to the scope above, whatever it is."
+msgstr ""
+"Voegt systeembeheerders en Administrator toe aan het bereik hierboven, "
+"wat dat bereik ook is."
+
+#: passkeys/posture.py:267
+msgid "Administrator can still sign in with only a password."
+msgstr "Administrator kan nog steeds alleen met een wachtwoord inloggen."
+
+#. Option for the 'Require a passkey from' (Select) field in DocType 'Passkey
+#. Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "All users"
+msgstr "Alle gebruikers"
+
+#. Label of the passkey_allow_first_enrollment_on_external_login (Check) field
+#. in DocType 'Passkey Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Allow First Passkey After Email-Link or Social Sign-in"
+msgstr "Eerste passkey toestaan na inloggen via e-maillink of social login"
+
+#. Label of the passkey_2fa_allow_otp_fallback (Check) field in DocType
+#. 'Passkey Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Allow OTP Fallback for Passkey Second Factor"
+msgstr "Terugval op eenmalige code toestaan voor passkey als tweede factor"
+
+#. Description of the 'Allow OTP Fallback for Passkey Second Factor' (Check)
+#. field in DocType 'Passkey Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid ""
+"Allow a mid-flow fallback to the configured OTP method when the passkey "
+"second factor fails"
+msgstr ""
+"Sta tijdens het inloggen een terugval op de ingestelde OTP-methode toe "
+"als de passkey als tweede factor niet werkt"
+
+#. Label of the passkey_enforce_privileged_always (Check) field in DocType
+#. 'Passkey Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Always require a passkey from System Managers"
+msgstr "Altijd een passkey eisen van systeembeheerders"
+
+#: passkeys/posture.py:105
+msgid ""
+"An enrolled user can finish password sign-in with a verification code "
+"instead of a passkey."
+msgstr ""
+"Een gebruiker met een passkey kan het inloggen met wachtwoord afronden "
+"met een verificatiecode in plaats van een passkey."
+
+#. Label of the passkey_android_package_name (Data) field in DocType 'Passkey
+#. Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Android Package Name"
+msgstr "Android-pakketnaam"
+
+#. Label of the passkey_android_cert_fingerprints (Small Text) field in DocType
+#. 'Passkey Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Android Signing Certificate SHA-256 Fingerprints"
+msgstr "SHA-256-vingerafdrukken van het Android-ondertekeningscertificaat"
+
+#. Description of the 'Android Package Name' (Data) field in DocType 'Passkey
+#. Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid ""
+"Android application id for the served /.well-known/assetlinks.json, e.g. "
+"com.example.app. Leave blank to omit assetlinks.json."
+msgstr ""
+"Android-applicatie-ID voor het aangeboden bestand /.well-"
+"known/assetlinks.json, bijvoorbeeld com.example.app. Laat leeg om "
+"assetlinks.json weg te laten."
+
+#: passkeys/well_known.py:111
+msgid ""
+"Android fingerprint on line {0} is not a SHA-256 certificate fingerprint "
+"(64 hex characters, colons optional)."
+msgstr ""
+"De Android-vingerafdruk op regel {0} is geen "
+"SHA-256-certificaatvingerafdruk (64 hexadecimale tekens, dubbele punten "
+"optioneel)."
+
+#: passkeys/posture.py:89
+msgid "Any user can sign in with a username and password instead of a passkey."
+msgstr ""
+"Elke gebruiker kan inloggen met een gebruikersnaam en wachtwoord in "
+"plaats van een passkey."
+
+#: passkeys/posture.py:223
+msgid ""
+"Anyone who controls a user's email can reset the password and then sign "
+"in without a passkey."
+msgstr ""
+"Iedereen die de e-mail van een gebruiker beheert, kan het wachtwoord "
+"resetten en daarna zonder passkey inloggen."
+
+#. Description of the 'iOS Team ID' (Data) field in DocType 'Passkey Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid ""
+"Apple Team ID (App ID Prefix) for the served /.well-known/apple-app-site-"
+"association, e.g. ABCDE12345."
+msgstr ""
+"Apple Team ID (App ID-voorvoegsel) voor het aangeboden bestand /.well-"
+"known/apple-app-site-association, bijvoorbeeld ABCDE12345."
+
+#. Label of the attestation_format (Data) field in DocType 'WebAuthn
+#. Credential'
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.json
+msgid "Attestation Format"
+msgstr "Attestatieformaat"
+
+#. Label of the attestation_object (Long Text) field in DocType 'WebAuthn
+#. Credential'
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.json
+msgid "Attestation Object"
+msgstr "Attestatieobject"
+
+#. Label of the authenticator_attachment (Select) field in DocType 'WebAuthn
+#. Credential'
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.json
+msgid "Authenticator Attachment"
+msgstr "Type authenticator"
+
+#. Description of the 'Backup Eligible' (Check) field in DocType 'WebAuthn
+#. Credential'
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.json
+msgid "BE flag; write-once at registration, never updated"
+msgstr "BE-vlag; eenmalig vastgelegd bij registratie, nooit bijgewerkt"
+
+#. Description of the 'Backup State' (Check) field in DocType 'WebAuthn
+#. Credential'
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.json
+msgid "BS flag; refreshed on every successful assertion"
+msgstr "BS-vlag; bij elke geslaagde controle bijgewerkt"
+
+#. Label of the backup_eligible (Check) field in DocType 'WebAuthn Credential'
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.json
+msgid "Backup Eligible"
+msgstr "Back-up mogelijk"
+
+#. Label of the backup_state (Check) field in DocType 'WebAuthn Credential'
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.json
+msgid "Backup State"
+msgstr "Back-upstatus"
+
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.py:88
+msgid "Backup eligibility is set at registration and can never change."
+msgstr ""
+"Of een back-up mogelijk is, wordt bij registratie bepaald en kan nooit "
+"veranderen."
+
+#. Description of the 'Starting on' (Date) field in DocType 'Passkey Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid ""
+"Blank = immediately. Until this date in-scope users are nudged instead of"
+" required."
+msgstr ""
+"Leeg = meteen. Tot deze datum krijgen gebruikers binnen het bereik alleen"
+" een herinnering en is een passkey nog niet verplicht."
+
+#. Option for the 'Device cannot create a passkey' (Select) field in DocType
+#. 'Passkey Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Block + Notify Admin"
+msgstr "Blokkeren + beheerder waarschuwen"
+
+#: passkeys/auth_hooks.py:185
+msgid ""
+"Cannot disable Two Factor Authentication: it is the structural backstop "
+"for Passkey as Second Factor. The final login veto remains fail-closed, "
+"but the required defence-in-depth floor would be lost. Disable 'Passkey "
+"as Second Factor' in Passkey Settings first."
+msgstr ""
+"Tweestapsverificatie kan niet worden uitgeschakeld: het is het vangnet "
+"voor Passkey als tweede factor. De laatste controle bij het inloggen "
+"blijft veilig geblokkeerd bij fouten, maar de vereiste extra "
+"beveiligingslaag zou verdwijnen. Schakel eerst 'Passkey als tweede "
+"factor' uit in Passkey-instellingen."
+
+#: passkeys/auth_hooks.py:170
+msgid ""
+"Cannot disable username/password login while Passkey as Second Factor is "
+"the only passkey mode: enrolled users would have no way to sign in. "
+"Enable Login with Passkey or turn off Passkey as Second Factor in Passkey"
+" Settings first."
+msgstr ""
+"Inloggen met gebruikersnaam en wachtwoord kan niet worden uitgeschakeld "
+"zolang Passkey als tweede factor de enige passkey-modus is: gebruikers "
+"met een passkey kunnen dan niet meer inloggen. Schakel eerst Inloggen met"
+" passkey in, of zet Passkey als tweede factor uit in Passkey-"
+"instellingen."
+
+#: passkeys/policy.py:57
+msgid ""
+"Cannot enable passkeys because the WebAuthn dependencies could not be "
+"imported: {0}."
+msgstr ""
+"Passkeys kunnen niet worden ingeschakeld, omdat de WebAuthn-"
+"afhankelijkheden niet konden worden geladen: {0}."
+
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.py:68
+msgid ""
+"Cannot enable passkeys: no Relying Party ID resolves. Fix it one of two "
+"ways: set host_name in the site config (site_config.json) to this site's "
+"domain, or enter an explicit Passkey RP ID (a bare host name) in the "
+"Passkey RP ID field."
+msgstr ""
+"Passkeys kunnen niet worden ingeschakeld: er is geen Relying Party ID te "
+"bepalen. Los dit op een van twee manieren op: stel host_name in de site-"
+"config (site_config.json) in op het domein van deze site, of vul een "
+"eigen Passkey RP ID (alleen een hostnaam) in bij het veld Passkey RP ID."
+
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.py:59
+msgid ""
+"Cannot enable passkeys: the 'webauthn' python package is not installed in"
+" this bench. Run bench setup requirements for the passkeys app first."
+msgstr ""
+"Passkeys kunnen niet worden ingeschakeld: het Python-pakket 'webauthn' is"
+" niet geïnstalleerd in deze bench. Voer eerst bench setup requirements "
+"uit voor de passkeys-app."
+
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.py:77
+msgid ""
+"Cannot enable passkeys: the encryption_key in this site's "
+"site_config.json is empty. Remove the empty entry so Frappe can create a "
+"new key, or restore the original key."
+msgstr ""
+"Passkeys kunnen niet worden ingeschakeld: de encryption_key in "
+"site_config.json van deze site is leeg. Verwijder de lege regel zodat "
+"Frappe een nieuwe sleutel kan maken, of zet de oorspronkelijke sleutel "
+"terug."
+
+#: passkeys/passkey.py:41
+msgid ""
+"Cannot merge {0} into {1}: both users have passkeys. Delete the passkeys "
+"and the WebAuthn User Handle of {0} first."
+msgstr ""
+"{0} kan niet worden samengevoegd met {1}: beide gebruikers hebben "
+"passkeys. Verwijder eerst de passkeys en de WebAuthn User Handle van {0}."
+
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.py:144
+msgid ""
+"Cannot save: this would leave no passkey-capable login mode enabled while"
+" these users allow passkey login only: {0}. Keep a passkey login mode "
+"enabled, or clear 'Passkey Only Login' on their WebAuthn User Handle "
+"records first."
+msgstr ""
+"Opslaan lukt niet: er zou geen inlogmodus met passkey meer aanstaan, "
+"terwijl deze gebruikers alleen met een passkey mogen inloggen: {0}. Laat "
+"een inlogmodus met passkey aanstaan, of haal eerst 'Alleen inloggen met "
+"passkey' weg bij hun WebAuthn User Handle-records."
+
+#: passkeys/install.py:164
+msgid ""
+"Cannot uninstall passkeys: these users allow passkey login only and would"
+" be locked out: {0}. Clear 'Passkey Only Login' on their WebAuthn User "
+"Handle records first (WebAuthn User Handle list in Desk, or bench "
+"console)."
+msgstr ""
+"De passkeys-app kan niet worden verwijderd: deze gebruikers mogen alleen "
+"met een passkey inloggen en zouden buitengesloten raken: {0}. Haal eerst "
+"'Alleen inloggen met passkey' weg bij hun WebAuthn User Handle-records "
+"(via de lijst WebAuthn User Handle in Desk, of in de bench console)."
+
+#: passkeys/install.py:155
+msgid ""
+"Cannot uninstall passkeys: username/password login is disabled and no "
+"other login method (Social Login, LDAP, Login with Email Link) is "
+"enabled. Enable one in System Settings first."
+msgstr ""
+"De passkeys-app kan niet worden verwijderd: inloggen met gebruikersnaam "
+"en wachtwoord staat uit en er is geen andere inlogmethode ingeschakeld "
+"(Social Login, LDAP, Inloggen met e-maillink). Schakel eerst een methode "
+"in bij Systeeminstellingen."
+
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.py:113
+msgid ""
+"Cannot {0} the only enabled passkey of {1}: Disable Username/Password "
+"Login is on in System Settings. Add another enabled passkey or turn off "
+"Disable Username/Password Login in System Settings, then retry."
+msgstr ""
+"Actie '{0}' is niet mogelijk voor de enige ingeschakelde passkey van {1}:"
+" 'Gebruikersnaam/wachtwoord-aanmelding uitschakelen' staat aan in "
+"Systeeminstellingen. Voeg nog een ingeschakelde passkey toe of zet "
+"'Gebruikersnaam/wachtwoord-aanmelding uitschakelen' uit in "
+"Systeeminstellingen en probeer het opnieuw."
+
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.py:107
+msgid ""
+"Cannot {0} the only enabled passkey of {1}: passwordless login is on for "
+"that account, so this would lock them out. Clear 'Passkey Only Login' on "
+"their WebAuthn User Handle first (or ensure another login method), then "
+"retry."
+msgstr ""
+"Actie '{0}' is niet mogelijk voor de enige ingeschakelde passkey van {1}:"
+" inloggen zonder wachtwoord staat aan voor dit account, dus die gebruiker"
+" zou buitengesloten raken. Haal eerst 'Alleen inloggen met passkey' weg "
+"bij de WebAuthn User Handle van die gebruiker (of zorg voor een andere "
+"inlogmethode) en probeer het opnieuw."
+
+#: passkeys/api/credentials.py:179
+msgid "Change passkey-only login"
+msgstr "Inloggen met alleen een passkey wijzigen"
+
+#: passkeys/public/js/passkey_settings.js:70
+msgid "Change the RP ID?"
+msgstr "RP ID wijzigen?"
+
+#. Description of the 'Passkey RP ID' (Data) field in DocType 'Passkey
+#. Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid ""
+"Changing the RP ID invalidates every existing passkey. This cannot be "
+"undone. Blank resolves to the exact host of the site's configured "
+"host_name when a login mode is enabled."
+msgstr ""
+"Als je de RP ID wijzigt, werken alle bestaande passkeys niet meer. Dit "
+"kan niet ongedaan worden gemaakt. Als je dit leeg laat, wordt de exacte "
+"host uit host_name van de site gebruikt zodra een inlogmodus is "
+"ingeschakeld."
+
+#: passkeys/public/js/passkey_settings.js:160
+msgid "Checking your security posture…"
+msgstr "Je beveiligingsstatus wordt gecontroleerd…"
+
+#. Label of the client_data_json (Long Text) field in DocType 'WebAuthn
+#. Credential'
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.json
+msgid "Client Data JSON"
+msgstr "Client Data JSON"
+
+#: passkeys/posture.py:250
+msgid "Cloned-authenticator hard-fail is off."
+msgstr "Hard weigeren bij een gekloonde authenticator staat uit."
+
+#. Label of the passkey_conditional_create (Check) field in DocType 'Passkey
+#. Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Conditional Create"
+msgstr "Voorwaardelijk aanmaken"
+
+#: passkeys/policy.py:164
+msgid ""
+"Configure at least one exact passkey origin or set this site's host_name "
+"within the RP ID scope."
+msgstr ""
+"Stel minstens één exacte passkey-origin in, of stel host_name van deze "
+"site in binnen het bereik van de RP ID."
+
+#: passkeys/confirm.py:258 passkeys/confirm.py:269
+msgid "Confirm it's you to continue."
+msgstr "Bevestig dat jij het bent om door te gaan."
+
+#: passkeys/session.py:320
+msgid "Confirm it's you to manage passkeys."
+msgstr "Bevestig dat jij het bent om passkeys te beheren."
+
+#: passkeys/confirm.py:485 passkeys/confirm.py:487
+msgid "Confirmation parameters must be an object."
+msgstr "Bevestigingsparameters moeten een object zijn."
+
+#. Label of the credential_id (Long Text) field in DocType 'WebAuthn
+#. Credential'
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.json
+msgid "Credential ID"
+msgstr "Credential-ID"
+
+#. Label of the credential_id_sha256 (Data) field in DocType 'WebAuthn
+#. Credential'
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.json
+msgid "Credential ID SHA-256"
+msgstr "Credential-ID SHA-256"
+
+#: passkeys/engine.py:150 passkeys/engine.py:152
+msgid "Cross-origin passkey ceremonies are not allowed."
+msgstr "Passkey-acties vanaf een andere origin zijn niet toegestaan."
+
+#: passkeys/posture.py:342
+msgid "Custom apps may add their own login methods."
+msgstr "Eigen apps kunnen hun eigen inlogmethoden toevoegen."
+
+#. Label of the passkey_nudge_cooldown_days (Int) field in DocType 'Passkey
+#. Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Days between prompts"
+msgstr "Dagen tussen herinneringen"
+
+#. Option for the 'Device cannot create a passkey' (Select) field in DocType
+#. 'Passkey Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Degrade to Nudge"
+msgstr "Terugschakelen naar herinnering"
+
+#. Description of the 'RP ID' (Data) field in DocType 'WebAuthn Credential'
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.json
+msgid "Descriptive only — verification always uses site-pinned configuration"
+msgstr ""
+"Alleen beschrijvend — de controle gebruikt altijd de vaste configuratie "
+"van de site"
+
+#. Label of the passkey_enforce_incapable (Select) field in DocType 'Passkey
+#. Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Device cannot create a passkey"
+msgstr "Apparaat kan geen passkey maken"
+
+#: passkeys/api/registration.py:268
+msgid "Device passkey"
+msgstr "Passkey op apparaat"
+
+#: passkeys/posture.py:145
+msgid ""
+"Disable LDAP in LDAP Settings, or accept that LDAP logins can bypass "
+"passkeys."
+msgstr ""
+"Schakel LDAP uit bij de LDAP-instellingen, of accepteer dat inloggen via "
+"LDAP passkeys kan omzeilen."
+
+#. Description of the 'Passkey Only Login' (Check) field in DocType 'WebAuthn
+#. User Handle'
+#: passkeys/passkeys/doctype/webauthn_user_handle/webauthn_user_handle.json
+msgid ""
+"Disable password login for this user; requires at least one enabled "
+"passkey"
+msgstr ""
+"Schakel inloggen met wachtwoord uit voor deze gebruiker; vereist minstens"
+" één ingeschakelde passkey"
+
+#: passkeys/posture.py:120
+msgid ""
+"Disable these Social Login Keys, or accept that these providers can "
+"bypass passkeys."
+msgstr ""
+"Schakel deze Social Login Keys uit, of accepteer dat deze providers "
+"passkeys kunnen omzeilen."
+
+#. Label of the discoverable (Select) field in DocType 'WebAuthn Credential'
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.json
+msgid "Discoverable"
+msgstr "Vindbaar"
+
+#. Description of the 'AAGUID' (Data) field in DocType 'WebAuthn Credential'
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.json
+msgid "Display and telemetry only, never policy; all-zeros tolerated"
+msgstr ""
+"Alleen om te tonen en voor telemetrie, nooit voor beleid; alleen nullen "
+"is toegestaan"
+
+#: passkeys/public/js/passkey_settings.js:48
+msgid ""
+"Each Android signing-certificate fingerprint must contain exactly 64 "
+"hexadecimal characters; colons and a SHA-256 label are optional. Invalid "
+"line(s): {0}"
+msgstr ""
+"Elke vingerafdruk van een Android-ondertekeningscertificaat moet precies "
+"64 hexadecimale tekens bevatten; dubbele punten en een SHA-256-label zijn"
+" optioneel. Ongeldige regel(s): {0}"
+
+#. Description of the 'Notify on Password Fallback' (Check) field in DocType
+#. 'Passkey Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Email the user when a passkey holder signs in with a weaker method"
+msgstr ""
+"Stuur de gebruiker een e-mail als iemand met een passkey inlogt met een "
+"zwakkere methode"
+
+#. Description of the 'Notify on Passkey Changes' (Check) field in DocType
+#. 'Passkey Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid ""
+"Email the user when a passkey is added, removed, disabled or flagged. "
+"This is the compensating control for registration hijack — leave it on "
+"outside mail-less development sites."
+msgstr ""
+"Stuur de gebruiker een e-mail als een passkey wordt toegevoegd, "
+"verwijderd, uitgeschakeld of gemarkeerd. Dit is de controle tegen kaping "
+"van de registratie — laat dit aan, behalve op ontwikkelsites zonder "
+"e-mail."
+
+#: passkeys/posture.py:176
+msgid "Enable 'Two Factor Authentication' in System Settings."
+msgstr "Schakel 'Tweefactorauthenticatie' in bij Systeeminstellingen."
+
+#: passkeys/api/credentials.py:191
+msgid "Enable a passkey login mode before turning on passkey-only login."
+msgstr ""
+"Schakel een inlogmodus met passkey in voordat je inloggen met alleen een "
+"passkey aanzet."
+
+#. Label of the enabled (Check) field in DocType 'WebAuthn Credential'
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.json
+msgid "Enabled"
+msgstr "Ingeschakeld"
+
+#: passkeys/api/credentials.py:202
+msgid ""
+"Enabling passkey-only login needs at least two enabled passkeys, so a "
+"lost device never locks you out."
+msgstr ""
+"Voor inloggen met alleen een passkey heb je minstens twee ingeschakelde "
+"passkeys nodig, zodat je nooit buitengesloten raakt als je een apparaat "
+"kwijtraakt."
+
+#: passkeys/posture.py:155
+msgid "Enrolled users cannot finish LDAP login without this app's passkey leg."
+msgstr ""
+"Gebruikers met een passkey kunnen het inloggen via LDAP niet afronden "
+"zonder het passkey-onderdeel van deze app."
+
+#: passkeys/posture.py:208
+msgid ""
+"Enrolled users cannot finish email-link login without this app's passkey "
+"leg."
+msgstr ""
+"Gebruikers met een passkey kunnen het inloggen via een e-maillink niet "
+"afronden zonder het passkey-onderdeel van deze app."
+
+#: passkeys/posture.py:130
+msgid ""
+"Enrolled users cannot finish these login paths without this app's passkey"
+" leg."
+msgstr ""
+"Gebruikers met een passkey kunnen deze inlogroutes niet afronden zonder "
+"het passkey-onderdeel van deze app."
+
+#. Label of the enrollment_tab (Tab Break) field in DocType 'Passkey Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Enrollment"
+msgstr "Passkey instellen"
+
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.py:176
+msgid ""
+"Enrollment enforcement has no effect while both passkey login modes are "
+"off — enable 'Login with Passkey' or 'Passkey as Second Factor' for the "
+"policy to apply."
+msgstr ""
+"Het verplicht instellen van een passkey doet niets zolang beide passkey-"
+"inlogmodi uitstaan — schakel 'Inloggen met passkey' of 'Passkey als "
+"tweede factor' in om het beleid te laten werken."
+
+#: passkeys/posture.py:329
+msgid ""
+"Enrollment is enforcing — once users enroll, set 'Passwordless login "
+"only' for the users you want to fully cover."
+msgstr ""
+"Het instellen van een passkey is verplicht — stel na het instellen "
+"'Alleen inloggen zonder wachtwoord' in voor de gebruikers die je volledig"
+" wilt dekken."
+
+#: passkeys/policy.py:61
+msgid "Error output: {0}"
+msgstr "Foutmelding: {0}"
+
+#. Label of the passkey_everyone_else (Select) field in DocType 'Passkey
+#. Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Everyone else"
+msgstr "Alle anderen"
+
+#: passkeys/posture.py:239
+msgid ""
+"Everyone else can still fall back to a password, so passkeys are optional"
+" for them."
+msgstr ""
+"Alle anderen kunnen nog terugvallen op een wachtwoord, dus voor hen zijn "
+"passkeys optioneel."
+
+#: passkeys/enforcement_admin.py:29
+msgid "Exempt must be true or false."
+msgstr "Vrijstelling moet 'waar' of 'onwaar' zijn."
+
+#. Label of the flagged (Check) field in DocType 'WebAuthn Credential'
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.json
+msgid "Flagged"
+msgstr "Gemarkeerd"
+
+#. Label of the flagged_reason (Small Text) field in DocType 'WebAuthn
+#. Credential'
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.json
+msgid "Flagged Reason"
+msgstr "Reden van markering"
+
+#. Label of the passkey_enforce_grace_logins (Int) field in DocType 'Passkey
+#. Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Grace sign-ins"
+msgstr "Keren uitstel bij inloggen"
+
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.py:52
+msgid "Grace sign-ins cannot be negative. Use 0 to block immediately."
+msgstr "Keren uitstel mogen niet negatief zijn. Gebruik 0 om direct te blokkeren."
+
+#. Label of the handle (Data) field in DocType 'WebAuthn User Handle'
+#: passkeys/passkeys/doctype/webauthn_user_handle/webauthn_user_handle.json
+msgid "Handle"
+msgstr "Handle"
+
+#. Label of the passkey_sign_count_hard_fail (Check) field in DocType 'Passkey
+#. Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Hard-fail on Sign Count Regression"
+msgstr "Hard weigeren bij lagere tellerstand"
+
+#: passkeys/public/js/passkey_settings.js:208
+msgid "Hide report"
+msgstr "Rapport verbergen"
+
+#. Description of the 'Re-authentication Window (Seconds)' (Int) field in
+#. DocType 'Passkey Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid ""
+"How long after a password or passkey sign-in, or a fresh password or "
+"passkey confirmation, a user can add or remove passkeys without "
+"confirming again"
+msgstr ""
+"Hoe lang na inloggen met wachtwoord of passkey, of na een recente "
+"bevestiging met wachtwoord of passkey, een gebruiker passkeys kan "
+"toevoegen of verwijderen zonder opnieuw te bevestigen"
+
+#. Description of the 'Grace sign-ins' (Int) field in DocType 'Passkey
+#. Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid ""
+"How many more sign-ins an in-scope user may defer the enrollment prompt "
+"before it becomes blocking. Covers brand-new users' first session; 0 "
+"blocks immediately."
+msgstr ""
+"Hoe vaak een gebruiker binnen het bereik nog kan inloggen en de "
+"herinnering om een passkey in te stellen kan uitstellen voordat die "
+"blokkeert. Geldt ook voor de eerste sessie van nieuwe gebruikers; bij 0 "
+"wordt direct geblokkeerd."
+
+#. Description of the 'Maximum prompts per user' (Int) field in DocType
+#. 'Passkey Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid ""
+"How many times the dismissible enrollment prompt may appear before it "
+"stops. Applies to Everyone else set to Nudge, to in-scope users before "
+"Starting on, and to devices that cannot create a passkey under Degrade to"
+" Nudge."
+msgstr ""
+"Hoe vaak de herinnering om een passkey in te stellen (die je kunt "
+"wegklikken) mag verschijnen voordat die stopt. Geldt voor 'Alle anderen' "
+"met 'Herinnering', voor gebruikers binnen het bereik vóór 'Vanaf', en "
+"voor apparaten die geen passkey kunnen maken bij 'Terugschakelen naar "
+"herinnering'."
+
+#: passkeys/engine.py:187 passkeys/engine.py:256
+msgid "Impossible passkey backup state."
+msgstr "Onmogelijke back-upstatus van passkey."
+
+#. Description of the 'Require a passkey from' (Select) field in DocType
+#. 'Passkey Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid ""
+"In-scope users must enroll after signing in. This is a post-login prompt "
+"with grace sign-ins, never a server-side login block."
+msgstr ""
+"Gebruikers binnen het bereik moeten na het inloggen een passkey "
+"instellen. Dit is een melding na het inloggen met uitstel, nooit een "
+"blokkade op de server bij het inloggen."
+
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.py:202
+msgid ""
+"Incapable Device Policy is 'Block + Notify Admin': users on devices that "
+"cannot create a passkey (and cannot use a phone) will be blocked rather "
+"than nudged. Prefer 'Degrade to Nudge' if any users may be on older "
+"devices."
+msgstr ""
+"Het beleid voor apparaten die dit niet kunnen staat op 'Blokkeren + "
+"beheerder waarschuwen': gebruikers op apparaten die geen passkey kunnen "
+"maken (en geen telefoon kunnen gebruiken) worden geblokkeerd in plaats "
+"van herinnerd. Kies liever 'Terugschakelen naar herinnering' als sommige "
+"gebruikers oudere apparaten hebben."
+
+#: passkeys/policy.py:245
+msgid ""
+"Invalid Trusted App Origin {0}: only android:apk-key-hash:<hash> entries "
+"are supported. iOS needs no entry here; configure its https://<RP ID> "
+"value under Passkey Origins."
+msgstr ""
+"Ongeldige vertrouwde app-origin {0}: alleen items als android:apk-key-"
+"hash:<hash> worden ondersteund. iOS heeft hier geen item nodig; stel de "
+"waarde https://<RP ID> in bij Passkey-origins."
+
+#: passkeys/policy.py:252
+msgid ""
+"Invalid Trusted App Origin {0}: the hash must be an unpadded base64url "
+"SHA-256 of the app-signing certificate (43 characters from A-Z a-z 0-9 - "
+"_). Use Google's Play app-signing certificate, not the upload key."
+msgstr ""
+"Ongeldige vertrouwde app-origin {0}: de hash moet een SHA-256 van het "
+"app-ondertekeningscertificaat zijn, in base64url zonder opvulling (43 "
+"tekens uit A-Z a-z 0-9 - _). Gebruik het app-ondertekeningscertificaat "
+"van Google Play, niet de uploadsleutel."
+
+#: passkeys/policy.py:172
+msgid "Invalid passkey origin {0}: expected scheme://host[:port], one per line"
+msgstr ""
+"Ongeldige passkey-origin {0}: verwacht schema://host[:poort], één per "
+"regel"
+
+#. Description of the 'Transports' (Small Text) field in DocType 'WebAuthn
+#. Credential'
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.json
+msgid "JSON list stored verbatim, unknown values kept"
+msgstr "JSON-lijst, ongewijzigd opgeslagen; onbekende waarden blijven behouden"
+
+#: passkeys/posture.py:156
+msgid ""
+"Keep 'Login with Passkey' on for enrolled LDAP-only accounts, or ensure "
+"they can start the app's password-to-passkey flow."
+msgstr ""
+"Laat 'Inloggen met passkey' aan voor gebruikers met een passkey die "
+"alleen via LDAP inloggen, of zorg dat zij de stap van wachtwoord naar "
+"passkey in de app kunnen starten."
+
+#: passkeys/posture.py:131
+msgid ""
+"Keep 'Login with Passkey' on for enrolled accounts that rely on social "
+"login, or ensure they can start the app's password-to-passkey flow."
+msgstr ""
+"Laat 'Inloggen met passkey' aan voor gebruikers met een passkey die via "
+"social login inloggen, of zorg dat zij de stap van wachtwoord naar "
+"passkey in de app kunnen starten."
+
+#: passkeys/posture.py:209
+msgid ""
+"Keep 'Login with Passkey' on for enrolled email-link-only accounts, or "
+"ensure they can start the app's password-to-passkey flow."
+msgstr ""
+"Laat 'Inloggen met passkey' aan voor gebruikers met een passkey die "
+"alleen via een e-maillink inloggen, of zorg dat zij de stap van "
+"wachtwoord naar passkey in de app kunnen starten."
+
+#: passkeys/posture.py:146
+msgid "LDAP sign-in"
+msgstr "Inloggen via LDAP"
+
+#: passkeys/posture.py:143 passkeys/posture.py:154
+msgid "LDAP sign-in is enabled."
+msgstr "Inloggen via LDAP is ingeschakeld."
+
+#. Label of the label (Data) field in DocType 'WebAuthn Credential'
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.json
+msgid "Label"
+msgstr "Label"
+
+#. Label of the last_used_at (Datetime) field in DocType 'WebAuthn Credential'
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.json
+msgid "Last Used At"
+msgstr "Laatst gebruikt op"
+
+#. Label of the last_used_ip (Data) field in DocType 'WebAuthn Credential'
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.json
+msgid "Last Used IP"
+msgstr "Laatst gebruikt vanaf IP"
+
+#. Description of the 'Allow First Passkey After Email-Link or Social Sign-in'
+#. (Check) field in DocType 'Passkey Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid ""
+"Lets a user with no enabled passkey, who signed in by email link, social "
+"login (such as Google), LDAP or another external sign-in, add a first "
+"passkey within the Re-authentication Window. Adding more passkeys still "
+"needs a password or passkey confirmation. Works only when Login with "
+"Passkey is on"
+msgstr ""
+"Laat een gebruiker zonder ingeschakelde passkey, die is ingelogd via een "
+"e-maillink, social login (zoals Google), LDAP of een andere externe "
+"inlogmethode, een eerste passkey toevoegen binnen het venster voor "
+"opnieuw bevestigen. Meer passkeys toevoegen vraagt nog steeds een "
+"bevestiging met wachtwoord of passkey. Werkt alleen als Inloggen met "
+"passkey aanstaat"
+
+#. Label of the login_modes_tab (Tab Break) field in DocType 'Passkey Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Login Modes"
+msgstr "Inlogmodi"
+
+#. Label of the login_with_passkey (Check) field in DocType 'Passkey Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Login with Passkey"
+msgstr "Inloggen met passkey"
+
+#: passkeys/posture.py:196 passkeys/posture.py:207
+msgid "Login with email link is enabled."
+msgstr "Inloggen met e-maillink is ingeschakeld."
+
+#: passkeys/posture.py:289
+msgid "Lower 'Re-auth Window (seconds)' if management should re-verify sooner."
+msgstr ""
+"Verlaag 'Venster voor opnieuw bevestigen (seconden)' als het beheren van "
+"passkeys sneller opnieuw moet worden gecontroleerd."
+
+#: passkeys/engine.py:146 passkeys/engine.py:148
+msgid "Malformed client data."
+msgstr "Ongeldige clientgegevens."
+
+#: passkeys/www/passkeys.html:31
+msgid "Managing passkeys needs JavaScript. Please enable it and reload this page."
+msgstr ""
+"Voor het beheren van passkeys is JavaScript nodig. Zet het aan en laad "
+"deze pagina opnieuw."
+
+#. Label of the passkey_max_per_user (Int) field in DocType 'Passkey Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Maximum Passkeys per User"
+msgstr "Maximaal aantal passkeys per gebruiker"
+
+#. Label of the passkey_nudge_max_prompts (Int) field in DocType 'Passkey
+#. Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Maximum prompts per user"
+msgstr "Maximaal aantal herinneringen per gebruiker"
+
+#. Description of the 'Days between prompts' (Int) field in DocType 'Passkey
+#. Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid ""
+"Minimum days between those prompts. Applies wherever Maximum prompts per "
+"user applies."
+msgstr ""
+"Minimaal aantal dagen tussen die herinneringen. Geldt overal waar "
+"'Maximaal aantal herinneringen per gebruiker' geldt."
+
+#: passkeys/confirm.py:454
+msgid "Missing confirmation payload."
+msgstr "Bevestigingsgegevens ontbreken."
+
+#. Label of the mobile_apps_tab (Tab Break) field in DocType 'Passkey Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Mobile Apps"
+msgstr "Mobiele apps"
+
+#: passkeys/www/passkeys.html:14 passkeys/www/passkeys.html:19
+msgid "My Passkeys"
+msgstr "Mijn passkeys"
+
+#: passkeys/public/js/passkey_settings.js:8
+msgid ""
+"Native Android app origins may be listed here as android:apk-key-"
+"hash:<hash>. iOS needs no Trusted App Origin entry here; configure the "
+"exact HTTPS origin asserted by the iOS app under Passkey Origins. RP ID "
+"is credential scope, not an origin."
+msgstr ""
+"Native Android-apps kunnen hier worden opgegeven als android:apk-key-"
+"hash:<hash>. iOS heeft hier geen vertrouwde app-origin nodig; stel de "
+"exacte HTTPS-origin die de iOS-app gebruikt in bij Passkey-origins. RP ID"
+" is het bereik van een credential, geen origin."
+
+#. Description of the 'Trusted App Origins' (Small Text) field in DocType
+#. 'Passkey Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid ""
+"Native app origins that may assert the site's passkeys, one per line. A "
+"native Android app presents android:apk-key-hash:<hash>, where <hash> is "
+"the unpadded base64url SHA-256 of its signing certificate; use Google's "
+"Play app-signing certificate (Play Console → App integrity → App "
+"signing), NOT the upload key. iOS needs no entry here; configure its "
+"https://<RP ID> value under Passkey Origins. Serve the association files "
+"(assetlinks.json / apple-app-site-association) so a native app can share "
+"these passkeys; see docs/mobile-apps.md."
+msgstr ""
+"Origins van native apps die de passkeys van de site mogen gebruiken, één "
+"per regel. Een native Android-app gebruikt android:apk-key-hash:<hash>, "
+"waarbij <hash> de SHA-256 van het ondertekeningscertificaat is, in "
+"base64url zonder opvulling. Gebruik het app-ondertekeningscertificaat van"
+" Google Play (Play Console → App integrity → App signing), NIET de "
+"uploadsleutel. iOS heeft hier geen item nodig; stel de waarde https://<RP"
+" ID> in bij Passkey-origins. Bied de associatiebestanden (assetlinks.json"
+" / apple-app-site-association) aan zodat een native app deze passkeys kan"
+" delen; zie docs/mobile-apps.md."
+
+#. Option for the 'Discoverable' (Select) field in DocType 'WebAuthn
+#. Credential'
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.json
+msgid "No"
+msgstr "Nee"
+
+#: passkeys/posture.py:187
+msgid "No change needed — this is the intended second-factor floor."
+msgstr ""
+"Geen aanpassing nodig — dit is de bedoelde ondergrens voor de tweede "
+"factor."
+
+#. Option for the 'Require a passkey from' (Select) field in DocType 'Passkey
+#. Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "No one"
+msgstr "Niemand"
+
+#: passkeys/posture.py:71
+msgid "No passkey login mode is on, so every sign-in uses another method."
+msgstr ""
+"Er staat geen inlogmodus met passkey aan, dus iedereen logt in met een "
+"andere methode."
+
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.py:122
+msgid ""
+"No role has Two Factor Authentication enabled, so the two-factor backstop"
+" covers nobody. Consider enabling it for role 'All' in the Role list."
+msgstr ""
+"Geen enkele rol heeft tweestapsverificatie ingeschakeld, dus het vangnet "
+"voor tweestapsverificatie dekt niemand. Overweeg het in te schakelen voor"
+" de rol 'All' in de lijst Rollen."
+
+#: passkeys/posture.py:308
+msgid ""
+"No stock bypass paths detected — passkeys are the only stock way to sign "
+"in."
+msgstr ""
+"Geen standaard omzeilroutes gevonden — passkeys zijn de enige "
+"standaardmanier om in te loggen."
+
+#: passkeys/enforcement_admin.py:35
+msgid "No such user: {0}"
+msgstr "Gebruiker bestaat niet: {0}"
+
+#: passkeys/session.py:148
+msgid "Not permitted."
+msgstr "Niet toegestaan."
+
+#: passkeys/confirm.py:293
+msgid "Not set"
+msgstr "Niet ingesteld"
+
+#. Label of the notifications_tab (Tab Break) field in DocType 'Passkey
+#. Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Notifications"
+msgstr "Meldingen"
+
+#. Label of the passkey_notify_on_change (Check) field in DocType 'Passkey
+#. Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Notify on Passkey Changes"
+msgstr "Melden bij wijzigingen aan passkeys"
+
+#. Label of the passkey_notify_password_fallback (Check) field in DocType
+#. 'Passkey Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Notify on Password Fallback"
+msgstr "Melden bij terugval op wachtwoord"
+
+#. Label of the passkey_notify_password_login (Check) field in DocType 'Passkey
+#. Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Notify on Password Login by Passkey Holder"
+msgstr "Melden bij inloggen met wachtwoord door gebruiker met passkey"
+
+#. Option for the 'Everyone else' (Select) field in DocType 'Passkey Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Nudge"
+msgstr "Herinnering"
+
+#: passkeys/posture.py:109
+msgid "OTP fallback"
+msgstr "Terugval op eenmalige code"
+
+#: passkeys/posture.py:104
+msgid "OTP fallback is enabled for passkey second factor."
+msgstr "Terugval op eenmalige code is ingeschakeld voor passkey als tweede factor."
+
+#. Option for the 'Everyone else' (Select) field in DocType 'Passkey Settings'
+#: passkeys/api/credentials.py:181 passkeys/confirm.py:291
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Off"
+msgstr "Uit"
+
+#: passkeys/api/credentials.py:181 passkeys/confirm.py:291
+msgid "On"
+msgstr "Aan"
+
+#: passkeys/passkey.py:157
+msgid "One more step to finish setting up this passkey."
+msgstr "Nog één stap om deze passkey af te ronden."
+
+#: passkeys/posture.py:357
+msgid "One or more stock authentication settings could not be read."
+msgstr ""
+"Eén of meer standaardinstellingen voor authenticatie konden niet worden "
+"gelezen."
+
+#: passkeys/policy.py:185
+msgid ""
+"Origin {0} cannot use RP ID {1}: its host must equal the RP ID or be a "
+"subdomain of it. Serving multiple unrelated domains requires Related "
+"Origin Requests, which is deferred."
+msgstr ""
+"Origin {0} kan RP ID {1} niet gebruiken: de host moet gelijk zijn aan de "
+"RP ID of een subdomein ervan zijn. Meerdere niet-verwante domeinen "
+"gebruiken vraagt Related Origin Requests, dat nog niet wordt ondersteund."
+
+#: passkeys/public/js/passkey_settings.js:332
+msgid "Origins: {0}"
+msgstr "Origins: {0}"
+
+#: passkeys/api/registration.py:269
+msgid "Passkey"
+msgstr "Passkey"
+
+#. Name of a DocType
+#: passkeys/passkeys/doctype/passkey_enforcement_role/passkey_enforcement_role.json
+msgid "Passkey Enforcement Role"
+msgstr "Rol voor verplichte passkey"
+
+#. Label of the passkey_only_login (Check) field in DocType 'WebAuthn User
+#. Handle'
+#: passkeys/passkeys/doctype/webauthn_user_handle/webauthn_user_handle.json
+msgid "Passkey Only Login"
+msgstr "Alleen inloggen met passkey"
+
+#. Label of the passkey_origins (Small Text) field in DocType 'Passkey
+#. Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Passkey Origins"
+msgstr "Passkey-origins"
+
+#. Label of the passkey_rp_id (Data) field in DocType 'Passkey Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Passkey RP ID"
+msgstr "Passkey RP ID"
+
+#: passkeys/policy.py:89
+msgid "Passkey RP ID must be a bare host name without scheme, port or path: {0}"
+msgstr ""
+"Passkey RP ID moet een kale hostnaam zijn, zonder schema, poort of pad: "
+"{0}"
+
+#. Name of a DocType
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Passkey Settings"
+msgstr "Passkey-instellingen"
+
+#: passkeys/notifications.py:33
+msgid "Passkey added: {0}"
+msgstr "Passkey toegevoegd: {0}"
+
+#. Label of the passkey_as_second_factor (Check) field in DocType 'Passkey
+#. Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Passkey as Second Factor"
+msgstr "Passkey als tweede factor"
+
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.py:109
+msgid ""
+"Passkey as Second Factor cannot be the only passkey mode while "
+"username/password login is disabled. Enable Login with Passkey or re-"
+"enable username/password login."
+msgstr ""
+"Passkey als tweede factor kan niet de enige passkey-modus zijn zolang "
+"inloggen met gebruikersnaam en wachtwoord is uitgeschakeld. Schakel "
+"Inloggen met passkey in of zet inloggen met gebruikersnaam en wachtwoord "
+"weer aan."
+
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.py:155
+msgid ""
+"Passkey as Second Factor is unusable for enrolled users while "
+"username/password login is disabled: the app's password leg cannot start,"
+" and alternate login completions are final-vetoed. Keep Login with "
+"Passkey enabled as their usable route."
+msgstr ""
+"Passkey als tweede factor is onbruikbaar voor gebruikers met een passkey "
+"zolang inloggen met gebruikersnaam en wachtwoord is uitgeschakeld: het "
+"wachtwoordonderdeel van de app kan niet starten en andere manieren om het"
+" inloggen af te ronden worden door de laatste controle geblokkeerd. Laat "
+"Inloggen met passkey aan als hun werkende route."
+
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.py:116
+msgid ""
+"Passkey as Second Factor requires Two Factor Authentication to be enabled"
+" in System Settings — it is the backstop for password logins that bypass "
+"the passkey UI."
+msgstr ""
+"Passkey als tweede factor vereist dat tweestapsverificatie is "
+"ingeschakeld in Systeeminstellingen — het is het vangnet voor "
+"wachtwoordlogins die de passkey-interface omzeilen."
+
+#: passkeys/posture.py:171
+msgid ""
+"Passkey as Second Factor requires core Two Factor Authentication as a "
+"defence-in-depth floor. The final login veto still blocks enrolled users,"
+" but this configuration is unsupported."
+msgstr ""
+"Passkey als tweede factor vereist de standaard tweestapsverificatie als "
+"extra beveiligingslaag. De laatste controle bij het inloggen blokkeert "
+"gebruikers met een passkey nog steeds, maar deze configuratie wordt niet "
+"ondersteund."
+
+#: passkeys/engine.py:265
+msgid "Passkey backup eligibility changed — the credential is refused."
+msgstr ""
+"De back-upmogelijkheid van de passkey is veranderd — de credential wordt "
+"geweigerd."
+
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.py:162
+msgid ""
+"Passkey change notifications are off. They are the compensating control "
+"for credential registration hijack — leave them on outside mail-less "
+"development sites."
+msgstr ""
+"Meldingen over wijzigingen aan passkeys staan uit. Ze zijn de controle "
+"tegen kaping van de registratie van credentials — laat ze aan, behalve op"
+" ontwikkelsites zonder e-mail."
+
+#: passkeys/confirm.py:399
+msgid ""
+"Passkey confirmation could not be completed. Re-authenticate and begin "
+"again."
+msgstr ""
+"De bevestiging met passkey kon niet worden afgerond. Verifieer jezelf "
+"opnieuw en begin opnieuw."
+
+#: passkeys/ceremony.py:63 passkeys/ceremony.py:103 passkeys/ceremony.py:129
+#: passkeys/ceremony.py:131 passkeys/ceremony.py:134 passkeys/ceremony.py:171
+#: passkeys/ceremony.py:176 passkeys/confirm.py:374 passkeys/confirm.py:381
+#: passkeys/engine.py:258 passkeys/passkey.py:111 passkeys/passkey.py:118
+#: passkeys/passkey.py:121 passkeys/passkey.py:141 passkeys/passkey.py:174
+#: passkeys/passkey.py:182 passkeys/passkey.py:184 passkeys/passkey.py:188
+#: passkeys/passkey.py:195 passkeys/passkey.py:219 passkeys/passkey.py:222
+#: passkeys/passkey.py:244 passkeys/passkey.py:249 passkeys/passkey.py:376
+#: passkeys/passkey.py:382 passkeys/passkey.py:385 passkeys/passkey.py:419
+#: passkeys/passkey.py:421 passkeys/passkey.py:472 passkeys/passkey.py:477
+#: passkeys/passkey.py:649 passkeys/passkey.py:652
+msgid "Passkey could not be verified."
+msgstr "De passkey kon niet worden gecontroleerd."
+
+#: passkeys/passkey.py:435
+msgid "Passkey could not be verified. Please sign in again."
+msgstr "De passkey kon niet worden gecontroleerd. Log opnieuw in."
+
+#: passkeys/engine.py:194
+msgid "Passkey credential id is too long."
+msgstr "De credential-ID van de passkey is te lang."
+
+#: passkeys/notifications.py:59
+msgid "Passkey disabled: {0}"
+msgstr "Passkey uitgeschakeld: {0}"
+
+#: passkeys/notifications.py:72
+msgid "Passkey flagged: {0} ({1})"
+msgstr "Passkey gemarkeerd: {0} ({1})"
+
+#: passkeys/session.py:120 passkeys/session.py:150
+msgid "Passkey management requires a signed-in browser session."
+msgstr "Voor het beheren van passkeys heb je een ingelogde browsersessie nodig."
+
+#: passkeys/posture.py:288
+msgid ""
+"Passkey management stays authorized for this long after a sign-in or re-"
+"auth."
+msgstr ""
+"Het beheren van passkeys blijft zo lang toegestaan na het inloggen of een"
+" nieuwe bevestiging."
+
+#: passkeys/api/credentials.py:225
+msgid "Passkey not found."
+msgstr "Passkey niet gevonden."
+
+#: passkeys/policy.py:179
+msgid ""
+"Passkey origin {0} must use HTTPS (http is allowed only for localhost "
+"while developer mode is on)"
+msgstr ""
+"Passkey-origin {0} moet HTTPS gebruiken (http mag alleen voor localhost "
+"als de ontwikkelaarsmodus aanstaat)"
+
+#: passkeys/api/registration.py:245
+msgid ""
+"Passkey registration could not be completed. Re-authenticate and begin "
+"again."
+msgstr ""
+"Het registreren van de passkey kon niet worden afgerond. Verifieer jezelf"
+" opnieuw en begin opnieuw."
+
+#: passkeys/api/registration.py:88 passkeys/api/registration.py:94
+#: passkeys/api/registration.py:222 passkeys/engine.py:189
+msgid "Passkey registration could not be verified."
+msgstr "Het registreren van de passkey kon niet worden gecontroleerd."
+
+#: passkeys/notifications.py:46
+msgid "Passkey removed: {0}"
+msgstr "Passkey verwijderd: {0}"
+
+#: passkeys/passkey.py:284
+msgid "Passkey second factor is not available."
+msgstr "Passkey als tweede factor is niet beschikbaar."
+
+#: passkeys/engine.py:275
+msgid "Passkey signature counter regressed."
+msgstr "De tellerstand van de passkey is lager dan eerder."
+
+#: passkeys/engine.py:271
+msgid "Passkey signature counter replay detected."
+msgstr "Herhaling van de tellerstand van de passkey gedetecteerd."
+
+#: passkeys/api/credentials.py:181
+msgid "Passkey-only login"
+msgstr "Inloggen met alleen een passkey"
+
+#: passkeys/passkeys/doctype/webauthn_user_handle/webauthn_user_handle.py:103
+msgid "Passkey-only login requires at least one enabled passkey for user {0}."
+msgstr ""
+"Inloggen met alleen een passkey vereist minstens één ingeschakelde "
+"passkey voor gebruiker {0}."
+
+#: passkeys/passkeys/doctype/webauthn_user_handle/webauthn_user_handle.py:100
+msgid "Passkey-only login requires at least one passkey login mode to be enabled."
+msgstr ""
+"Inloggen met alleen een passkey vereist dat minstens één inlogmodus met "
+"passkey is ingeschakeld."
+
+#: passkeys/posture.py:79
+msgid "Passkeys are not an active login factor on this site."
+msgstr "Passkeys zijn geen actieve inlogmethode op deze site."
+
+#: passkeys/posture.py:70
+msgid "Passkeys are not an active login factor."
+msgstr "Passkeys zijn geen actieve inlogmethode."
+
+#: passkeys/api/registration.py:42
+msgid "Passkeys are not configured for this site."
+msgstr "Passkeys zijn niet ingesteld voor deze site."
+
+#: passkeys/api/registration.py:159
+msgid "Passkeys are not enabled."
+msgstr "Passkeys zijn niet ingeschakeld."
+
+#: passkeys/www/passkeys.py:58
+msgid "Passkeys are served natively by this site."
+msgstr "Passkeys worden rechtstreeks door deze site aangeboden."
+
+#: passkeys/ceremony.py:49 passkeys/confirm.py:322 passkeys/passkey.py:536
+msgid "Passkeys aren't set up for this site."
+msgstr "Passkeys zijn niet ingesteld voor deze site."
+
+#: passkeys/session.py:170
+msgid "Passkeys can't be changed or used while impersonating a user."
+msgstr ""
+"Passkeys kunnen niet worden gewijzigd of gebruikt terwijl je een andere "
+"gebruiker nabootst."
+
+#: passkeys/www/passkeys.html:21
+msgid ""
+"Passkeys let you sign in with your fingerprint, face, screen lock, or a "
+"security key — no password to type."
+msgstr ""
+"Met passkeys log je in met je vingerafdruk, gezicht, schermvergrendeling "
+"of een beveiligingssleutel — zonder wachtwoord te typen."
+
+#: passkeys/passkey.py:514
+msgid "Passkeys require this site's encryption key. Contact your administrator."
+msgstr ""
+"Passkeys hebben de encryptiesleutel van deze site nodig. Neem contact op "
+"met je beheerder."
+
+#: passkeys/posture.py:268
+msgid ""
+"Password login is allowed, Passkey as Second Factor is on, and "
+"Administrator has no enabled passkey. The per-user passwordless flag does"
+" not apply to Administrator."
+msgstr ""
+"Inloggen met wachtwoord is toegestaan, Passkey als tweede factor staat "
+"aan en Administrator heeft geen ingeschakelde passkey. De instelling voor"
+" inloggen zonder wachtwoord per gebruiker geldt niet voor Administrator."
+
+#: passkeys/posture.py:222
+msgid "Password reset by email is available."
+msgstr "Wachtwoord resetten via e-mail is mogelijk."
+
+#: passkeys/posture.py:88
+msgid "Password sign-in is enabled."
+msgstr "Inloggen met wachtwoord is ingeschakeld."
+
+#: passkeys/passkey.py:288
+msgid "Password sign-in is turned off for this site."
+msgstr "Inloggen met wachtwoord is uitgeschakeld voor deze site."
+
+#. Description of the 'Login with Passkey' (Check) field in DocType 'Passkey
+#. Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Passwordless first-factor login with a passkey (and the login page UI)"
+msgstr ""
+"Inloggen zonder wachtwoord met een passkey als eerste factor (en de "
+"interface op de inlogpagina)"
+
+#: passkeys/confirm.py:390
+msgid "Please verify it's you to confirm this action."
+msgstr "Verifieer dat jij het bent om deze actie te bevestigen."
+
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.py:186
+msgid ""
+"Privileged users (System Manager) are outside passkey enforcement. "
+"Administrators are the accounts attackers target first — industry "
+"practice enforces them first."
+msgstr ""
+"Gebruikers met speciale rechten (Systeembeheerder) vallen buiten de "
+"passkey-verplichting. Beheerdersaccounts zijn het eerste doelwit van "
+"aanvallers — in de praktijk worden ze als eerste verplicht gesteld."
+
+#. Label of the prompts_section (Section Break) field in DocType 'Passkey
+#. Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Prompts"
+msgstr "Herinneringen"
+
+#. Label of the public_key (Text) field in DocType 'WebAuthn Credential'
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.json
+msgid "Public Key"
+msgstr "Publieke sleutel"
+
+#. Label of the rp_id (Data) field in DocType 'WebAuthn Credential'
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.json
+msgid "RP ID"
+msgstr "RP ID"
+
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.py:97
+msgid "Re-auth Window cannot be negative."
+msgstr "Het venster voor opnieuw bevestigen mag niet negatief zijn."
+
+#: passkeys/posture.py:287
+msgid "Re-auth window is {0} seconds."
+msgstr "Het venster voor opnieuw bevestigen is {0} seconden."
+
+#. Label of the passkey_reauth_window (Int) field in DocType 'Passkey Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Re-authentication Window (Seconds)"
+msgstr "Venster voor opnieuw bevestigen (seconden)"
+
+#: passkeys/public/js/passkey_settings.js:304
+msgid "Recalculate"
+msgstr "Opnieuw berekenen"
+
+#. Description of the 'Notify on Password Login by Passkey Holder' (Check)
+#. field in DocType 'Passkey Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid ""
+"Record a risk event when a user who has a passkey signs in with their "
+"password instead (Activity Log telemetry; off by default)"
+msgstr ""
+"Leg een risicogebeurtenis vast als een gebruiker met een passkey toch met"
+" een wachtwoord inlogt (telemetrie in het Activiteitenlogboek; standaard "
+"uit)"
+
+#: passkeys/public/js/passkey_settings.js:120
+msgid "Recounting in the background…"
+msgstr "Bezig met opnieuw tellen op de achtergrond…"
+
+#: passkeys/install.py:308
+msgid ""
+"Refusing to merge a credential export into live passkey data. Import into"
+" an empty installation, or pass allow_existing=True after reviewing "
+"conflicts."
+msgstr ""
+"Een export van credentials wordt niet samengevoegd met bestaande passkey-"
+"gegevens. Importeer in een lege installatie, of geef allow_existing=True "
+"mee nadat je de conflicten hebt bekeken."
+
+#. Description of the 'Hard-fail on Sign Count Regression' (Check) field in
+#. DocType 'Passkey Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid ""
+"Reject logins on a signature-counter regression instead of logging and "
+"flagging the credential"
+msgstr ""
+"Weiger het inloggen bij een lagere tellerstand, in plaats van alleen te "
+"loggen en de credential te markeren"
+
+#. Label of the relying_party_tab (Tab Break) field in DocType 'Passkey
+#. Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Relying Party"
+msgstr "Relying Party"
+
+#: passkeys/passkeys/doctype/webauthn_user_handle/webauthn_user_handle.py:72
+msgid "Remove this user's passkeys before deleting their WebAuthn User Handle."
+msgstr ""
+"Verwijder de passkeys van deze gebruiker voordat je de WebAuthn User "
+"Handle verwijdert."
+
+#. Label of the passkey_enforce_scope (Select) field in DocType 'Passkey
+#. Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Require a passkey from"
+msgstr "Passkey verplicht voor"
+
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.py:194
+msgid ""
+"Require a passkey from is 'Selected roles' but no roles are listed, so it"
+" applies to nobody. Add the roles you want to require, or switch to 'All "
+"users'."
+msgstr ""
+"'Passkey verplicht voor' staat op 'Geselecteerde rollen', maar er zijn "
+"geen rollen opgegeven, dus het geldt voor niemand. Voeg de rollen toe die"
+" je wilt verplichten, of kies 'Alle gebruikers'."
+
+#: passkeys/posture.py:333
+msgid ""
+"Require a passkey from the users you want covered, then set 'Passwordless"
+" login only' for them."
+msgstr ""
+"Maak een passkey verplicht voor de gebruikers die je wilt dekken en stel "
+"dan 'Alleen inloggen zonder wachtwoord' voor hen in."
+
+#. Label of the resolved_rp_html (HTML) field in DocType 'Passkey Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Resolved Configuration"
+msgstr "Bepaalde configuratie"
+
+#: passkeys/public/js/passkey_settings.js:328
+msgid "Resolves to"
+msgstr "Wordt omgezet naar"
+
+#: passkeys/posture.py:358
+msgid ""
+"Retry the check and inspect the failed System Settings, Social Login, or "
+"LDAP configuration."
+msgstr ""
+"Probeer de controle opnieuw en bekijk de configuratie van "
+"Systeeminstellingen, Social Login of LDAP die is mislukt."
+
+#: passkeys/posture.py:347
+msgid ""
+"Review any custom login code separately — this checklist covers stock "
+"Frappe only."
+msgstr ""
+"Controleer eigen inlogcode apart — deze checklist dekt alleen standaard "
+"Frappe."
+
+#. Label of the role (Link) field in DocType 'Passkey Enforcement Role'
+#: passkeys/passkeys/doctype/passkey_enforcement_role/passkey_enforcement_role.json
+msgid "Role"
+msgstr "Rol"
+
+#. Label of the passkey_enforce_roles (Table MultiSelect) field in DocType
+#. 'Passkey Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Roles"
+msgstr "Rollen"
+
+#. Description of the 'Credential ID SHA-256' (Data) field in DocType 'WebAuthn
+#. Credential'
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.json
+msgid ""
+"SHA-256 hex of the raw credential id — the lookup and global-uniqueness "
+"key"
+msgstr ""
+"SHA-256 hex van de ruwe credential-ID — de zoeksleutel en globaal unieke "
+"sleutel"
+
+#. Description of the 'Android Signing Certificate SHA-256 Fingerprints' (Small
+#. Text) field in DocType 'Passkey Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid ""
+"SHA-256 signing-certificate fingerprint(s) for assetlinks.json, one per "
+"line (hex; colons optional). Use Google's Play app-signing certificate "
+"(Play Console → App integrity → App signing); include the upload key too "
+"during rollout. Required together with the package name to serve "
+"assetlinks.json."
+msgstr ""
+"SHA-256-vingerafdruk(ken) van het ondertekeningscertificaat voor "
+"assetlinks.json, één per regel (hex; dubbele punten optioneel). Gebruik "
+"het app-ondertekeningscertificaat van Google Play (Play Console → App "
+"integrity → App signing); voeg tijdens de uitrol ook de uploadsleutel "
+"toe. Samen met de pakketnaam nodig om assetlinks.json aan te bieden."
+
+#. Label of the security_tab (Tab Break) field in DocType 'Passkey Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Security"
+msgstr "Beveiliging"
+
+#: passkeys/public/js/passkey_settings.js:192
+#: passkeys/public/js/passkey_settings.js:221
+msgid "Security posture"
+msgstr "Beveiligingsstatus"
+
+#: passkeys/posture.py:324 passkeys/posture.py:356
+msgid "Security posture could not be fully determined."
+msgstr "De beveiligingsstatus kon niet volledig worden bepaald."
+
+#. Option for the 'Require a passkey from' (Select) field in DocType 'Passkey
+#. Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Selected roles"
+msgstr "Geselecteerde rollen"
+
+#: passkeys/confirm.py:312
+msgid "Send either params or a payload fingerprint, not both."
+msgstr "Stuur parameters of een vingerafdruk van de payload, niet beide."
+
+#. Label of the sign_count (Long Int) field in DocType 'WebAuthn Credential'
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.json
+msgid "Sign Count"
+msgstr "Tellerstand"
+
+#. Description of the 'Conditional Create' (Check) field in DocType 'Passkey
+#. Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid ""
+"Silently upgrade password users to a passkey where the browser supports "
+"conditional create"
+msgstr ""
+"Zet gebruikers met een wachtwoord stilletjes over op een passkey als de "
+"browser voorwaardelijk aanmaken ondersteunt"
+
+#: passkeys/posture.py:118 passkeys/posture.py:129
+msgid "Social login is enabled: {0}."
+msgstr "Social login is ingeschakeld: {0}."
+
+#. Description of the 'Enabled' (Check) field in DocType 'WebAuthn Credential'
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.json
+msgid "Soft-disable without delete (admin revocation keeps the row for forensics)"
+msgstr ""
+"Zacht uitschakelen zonder te verwijderen (bij intrekken door een "
+"beheerder blijft de rij bewaard voor onderzoek)"
+
+#. Label of the passkey_enforce_after (Date) field in DocType 'Passkey
+#. Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Starting on"
+msgstr "Vanaf"
+
+#. Name of a role
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.json
+#: passkeys/passkeys/doctype/webauthn_user_handle/webauthn_user_handle.json
+msgid "System Manager"
+msgstr "Systeembeheerder"
+
+#: passkeys/passkey.py:456
+msgid "That passkey didn't work — please try again."
+msgstr "Die passkey werkte niet — probeer het opnieuw."
+
+#: passkeys/confirm.py:445 passkeys/passkey.py:234
+msgid "That password didn't match — try again."
+msgstr "Dat wachtwoord klopt niet — probeer het opnieuw."
+
+#: passkeys/api/registration.py:92 passkeys/confirm.py:379
+#: passkeys/passkey.py:115 passkeys/passkey.py:217 passkeys/passkey.py:240
+#: passkeys/passkey.py:379 passkeys/passkey.py:475
+msgid "That took too long — please try again."
+msgstr "Dat duurde te lang — probeer het opnieuw."
+
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.py:251
+msgid ""
+"The enforcement preview recount could not start because the job queue is "
+"full. Try again later."
+msgstr ""
+"Het opnieuw tellen voor de voorvertoning kon niet starten omdat de "
+"takenwachtrij vol is. Probeer het later opnieuw."
+
+#: passkeys/install.py:48
+msgid ""
+"The passkeys app needs Frappe {0} or later on this line; this site runs "
+"{1}."
+msgstr ""
+"De passkeys-app vereist Frappe {0} of nieuwer op deze versielijn; deze "
+"site draait op {1}."
+
+#: passkeys/public/js/passkey_settings.js:172
+msgid "The security report couldn’t be loaded right now."
+msgstr "Het beveiligingsrapport kan nu niet worden geladen."
+
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.py:90
+msgid "The signature counter is never written downward."
+msgstr "De tellerstand wordt nooit verlaagd."
+
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.py:80
+msgid "The user of a WebAuthn Credential can never change."
+msgstr "De gebruiker van een WebAuthn Credential kan nooit veranderen."
+
+#: passkeys/passkeys/doctype/webauthn_user_handle/webauthn_user_handle.py:84
+msgid "The user of a WebAuthn User Handle can never change."
+msgstr "De gebruiker van een WebAuthn User Handle kan nooit veranderen."
+
+#: passkeys/install.py:60
+msgid ""
+"This Frappe installation serves passkeys natively (frappe.passkey). The "
+"passkeys app is an upgrade vehicle for sites that predate the native "
+"implementation — it cannot be freshly installed on top of it."
+msgstr ""
+"Deze Frappe-installatie biedt passkeys rechtstreeks aan (frappe.passkey)."
+" De passkeys-app is bedoeld om sites bij te werken die van vóór de "
+"ingebouwde versie zijn — hij kan niet nieuw worden geïnstalleerd naast de"
+" ingebouwde versie."
+
+#: passkeys/auth_hooks.py:57
+msgid ""
+"This account requires a passkey after the password. Please sign in from "
+"the passkey login form."
+msgstr ""
+"Voor dit account is na het wachtwoord een passkey nodig. Log in via het "
+"inlogformulier voor passkeys."
+
+#: passkeys/auth_hooks.py:70
+msgid "This account signs in with a passkey. Please use your passkey to continue."
+msgstr "Dit account logt in met een passkey. Gebruik je passkey om door te gaan."
+
+#: passkeys/confirm.py:452
+msgid "This action requires a passkey — a password can't confirm it."
+msgstr ""
+"Voor deze actie is een passkey nodig — een wachtwoord kan dit niet "
+"bevestigen."
+
+#: passkeys/confirm.py:204 passkeys/confirm.py:307 passkeys/confirm.py:367
+#: passkeys/confirm.py:428
+msgid "This action requires a signed-in browser session."
+msgstr "Voor deze actie heb je een ingelogde browsersessie nodig."
+
+#: passkeys/install.py:414
+msgid ""
+"This export restores passkey-only user(s) ({0}), but no passkey login "
+"mode is enabled on this site. Enable 'Login with Passkey' in Passkey "
+"Settings before importing, or those users would be locked out."
+msgstr ""
+"Deze export herstelt gebruikers die alleen met een passkey inloggen "
+"({0}), maar er staat geen inlogmodus met passkey aan op deze site. "
+"Schakel 'Inloggen met passkey' in bij Passkey-instellingen voordat je "
+"importeert, anders worden die gebruikers buitengesloten."
+
+#: passkeys/posture.py:227
+msgid ""
+"This is inherent to password sign-in — disable password sign-in to remove"
+" it."
+msgstr ""
+"Dit hoort bij inloggen met een wachtwoord — schakel inloggen met "
+"wachtwoord uit om het op te lossen."
+
+#: passkeys/posture.py:186
+msgid "This is the required core floor behind the app's final-login veto."
+msgstr "Dit is de vereiste ondergrens achter de laatste inlogcontrole van de app."
+
+#: passkeys/api/credentials.py:144
+msgid ""
+"This is your only passkey and Disable Username/Password Login is on in "
+"System Settings — add another enabled passkey or turn off Disable "
+"Username/Password Login in System Settings before removing it."
+msgstr ""
+"Dit is je enige passkey en 'Gebruikersnaam/wachtwoord-aanmelding "
+"uitschakelen' staat aan in Systeeminstellingen — voeg nog een "
+"ingeschakelde passkey toe of zet die instelling uit in "
+"Systeeminstellingen voordat je deze passkey verwijdert."
+
+#: passkeys/api/credentials.py:139
+msgid ""
+"This is your only passkey and passwordless login is on for your account —"
+" add another passkey (or turn off passkey-only login) before removing it."
+msgstr ""
+"Dit is je enige passkey en inloggen zonder wachtwoord staat aan voor je "
+"account — voeg nog een passkey toe (of zet inloggen met alleen een "
+"passkey uit) voordat je deze verwijdert."
+
+#: passkeys/passkey.py:137
+msgid ""
+"This passkey can't complete a passwordless sign-in. Please verify another"
+" way."
+msgstr ""
+"Deze passkey kan niet inloggen zonder wachtwoord. Verifieer jezelf op een"
+" andere manier."
+
+#: passkeys/api/registration.py:257
+msgid "This passkey is already registered."
+msgstr "Deze passkey is al geregistreerd."
+
+#: passkeys/install.py:432
+msgid ""
+"This site has no encryption_key; a credential export cannot be "
+"authenticated."
+msgstr ""
+"Deze site heeft geen encryption_key; een export van credentials kan niet "
+"worden geverifieerd."
+
+#: passkeys/errors.py:60
+msgid "This site serves passkeys natively."
+msgstr "Deze site biedt passkeys rechtstreeks aan."
+
+#: passkeys/confirm.py:441 passkeys/passkey.py:229
+msgid "Too many attempts. Please try again later."
+msgstr "Te veel pogingen. Probeer het later opnieuw."
+
+#. Label of the transports (Small Text) field in DocType 'WebAuthn Credential'
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.json
+msgid "Transports"
+msgstr "Transporten"
+
+#. Label of the passkey_app_origins (Small Text) field in DocType 'Passkey
+#. Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "Trusted App Origins"
+msgstr "Vertrouwde app-origins"
+
+#: passkeys/posture.py:108
+msgid ""
+"Turn off 'Allow OTP Fallback' to require the passkey leg for enrolled "
+"users."
+msgstr ""
+"Zet 'Terugval op eenmalige code toestaan' uit om voor gebruikers met een "
+"passkey het passkey-onderdeel verplicht te maken."
+
+#: passkeys/posture.py:198
+msgid "Turn off 'Login with Email Link' in System Settings."
+msgstr "Zet 'Inloggen met e-maillink' uit bij Systeeminstellingen."
+
+#: passkeys/posture.py:90
+msgid ""
+"Turn on 'Disable Username/Password Login' in System Settings to remove it"
+" site-wide, or set 'Passwordless login only' on a user who is not "
+"Administrator (needs 2+ passkeys). That per-user flag does not cover "
+"Administrator."
+msgstr ""
+"Zet 'Gebruikersnaam/wachtwoord-aanmelding uitschakelen' aan in "
+"Systeeminstellingen om het voor de hele site weg te halen, of stel "
+"'Alleen inloggen zonder wachtwoord' in voor een gebruiker die geen "
+"Administrator is (vereist 2+ passkeys). Die instelling per gebruiker "
+"geldt niet voor Administrator."
+
+#: passkeys/posture.py:72
+msgid "Turn on 'Login with Passkey' or 'Passkey as Second Factor' above to start."
+msgstr ""
+"Zet hierboven 'Inloggen met passkey' of 'Passkey als tweede factor' aan "
+"om te beginnen."
+
+#: passkeys/posture.py:255
+msgid ""
+"Turn on 'Reject on sign-count regression' to hard-fail a suspected clone "
+"(may lock out authenticators with buggy counters)."
+msgstr ""
+"Zet 'Hard weigeren bij lagere tellerstand' aan om een vermoedelijke kloon"
+" hard af te wijzen (kan authenticators met foute tellers buitensluiten)."
+
+#: passkeys/posture.py:170
+msgid "Two Factor Authentication is off."
+msgstr "Tweestapsverificatie staat uit."
+
+#: passkeys/posture.py:185
+msgid "Two Factor Authentication is on ({0})."
+msgstr "Tweestapsverificatie staat aan ({0})."
+
+#. Label of the uv_initialized (Check) field in DocType 'WebAuthn Credential'
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.json
+msgid "UV Initialized"
+msgstr "UV geïnitialiseerd"
+
+#. Option for the 'Discoverable' (Select) field in DocType 'WebAuthn
+#. Credential'
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.json
+msgid "Unknown"
+msgstr "Onbekend"
+
+#: passkeys/passkey.py:612
+msgid "Unknown enforcement event."
+msgstr "Onbekende gebeurtenis voor verplichte passkey."
+
+#: passkeys/boot.py:99
+msgid "Unknown nudge event."
+msgstr "Onbekende herinneringsgebeurtenis."
+
+#: passkeys/api/registration.py:32
+msgid "Unknown registration flow."
+msgstr "Onbekende registratiestroom."
+
+#: passkeys/engine.py:198
+msgid "Unsupported passkey algorithm."
+msgstr "Niet-ondersteund passkey-algoritme."
+
+#. Description of the 'Passkey as Second Factor' (Check) field in DocType
+#. 'Passkey Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid ""
+"Use a passkey as the second factor after password login; requires Two "
+"Factor Authentication to be enabled in System Settings"
+msgstr ""
+"Gebruik een passkey als tweede factor na het inloggen met wachtwoord; "
+"vereist dat tweestapsverificatie is ingeschakeld in Systeeminstellingen"
+
+#: passkeys/posture.py:272
+msgid ""
+"Use named System Manager accounts day to day. Enrol a passkey for "
+"Administrator with 'Passkey as Second Factor' on. Restrict Administrator "
+"by IP (User → Restrict IP). Set notify_admin_access_to_system_manager in "
+"site config to be emailed when Administrator logs in. Keep a strong, "
+"vaulted password."
+msgstr ""
+"Gebruik dagelijks persoonlijke Systeembeheerder-accounts. Stel een "
+"passkey in voor Administrator en zet 'Passkey als tweede factor' aan. "
+"Beperk Administrator op IP-adres (Gebruiker → IP-adressen beperken). Stel"
+" notify_admin_access_to_system_manager in de site-config in om een e-mail"
+" te krijgen als Administrator inlogt. Gebruik een sterk wachtwoord en "
+"bewaar het in een kluis."
+
+#: passkeys/confirm.py:435
+msgid ""
+"Use your passkey to confirm — password re-authentication is disabled for "
+"this account."
+msgstr ""
+"Gebruik je passkey om te bevestigen — opnieuw bevestigen met een "
+"wachtwoord staat uit voor dit account."
+
+#. Label of the user (Link) field in DocType 'WebAuthn Credential'
+#. Label of the user (Link) field in DocType 'WebAuthn User Handle'
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.json
+#: passkeys/passkeys/doctype/webauthn_user_handle/webauthn_user_handle.json
+msgid "User"
+msgstr "Gebruiker"
+
+#. Description of the 'Label' (Data) field in DocType 'WebAuthn Credential'
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.json
+msgid "User-renamable nickname; defaults to the authenticator provider name"
+msgstr ""
+"Naam die de gebruiker kan wijzigen; standaard de naam van de aanbieder "
+"van de authenticator"
+
+#: passkeys/posture.py:299
+msgid "Users can still sign in without a passkey via: {0}."
+msgstr "Gebruikers kunnen nog steeds zonder passkey inloggen via: {0}."
+
+#. Description of the 'Everyone else' (Select) field in DocType 'Passkey
+#. Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid ""
+"Users outside the scope: a dismissible enrollment prompt (capped below), "
+"or nothing."
+msgstr ""
+"Gebruikers buiten het bereik: een herinnering om een passkey in te "
+"stellen die je kunt wegklikken (met een maximum hieronder), of niets."
+
+#: passkeys/public/js/passkey_settings.js:197
+msgid "View recommendations"
+msgstr "Aanbevelingen bekijken"
+
+#: passkeys/public/js/passkey_settings.js:197
+msgid "View report"
+msgstr "Rapport bekijken"
+
+#. Name of a DocType
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.json
+msgid "WebAuthn Credential"
+msgstr "WebAuthn Credential"
+
+#. Name of a DocType
+#: passkeys/passkeys/doctype/webauthn_user_handle/webauthn_user_handle.json
+msgid "WebAuthn User Handle"
+msgstr "WebAuthn User Handle"
+
+#. Description of the 'Sign Count' (Long Int) field in DocType 'WebAuthn
+#. Credential'
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.json
+msgid "WebAuthn uint32 counter; updated upward only, never regressed"
+msgstr "WebAuthn uint32-teller; wordt alleen verhoogd, nooit verlaagd"
+
+#: passkeys/public/js/passkey_settings.js:232
+msgid "What this checks"
+msgstr "Wat dit controleert"
+
+#. Description of the 'Device cannot create a passkey' (Select) field in
+#. DocType 'Passkey Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid ""
+"What to do when a device genuinely cannot create a passkey (no platform "
+"authenticator and no cross-device option). Degrade to Nudge never locks "
+"the device out; Block + Notify Admin keeps prompting and records a risk "
+"event instead."
+msgstr ""
+"Wat er gebeurt als een apparaat echt geen passkey kan maken (geen "
+"ingebouwde authenticator en geen optie op een ander apparaat). "
+"Terugschakelen naar herinnering sluit het apparaat nooit buiten; "
+"Blokkeren + beheerder waarschuwen blijft herinneren en legt in plaats "
+"daarvan een risicogebeurtenis vast."
+
+#. Label of the enforcement_section (Section Break) field in DocType 'Passkey
+#. Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "When a passkey is required"
+msgstr "Wanneer een passkey verplicht is"
+
+#: passkeys/public/js/passkey_settings.js:235
+msgid "Why passkeys are safer — and when they aren’t →"
+msgstr "Waarom passkeys veiliger zijn — en wanneer niet →"
+
+#. Option for the 'Discoverable' (Select) field in DocType 'WebAuthn
+#. Credential'
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.json
+msgid "Yes"
+msgstr "Ja"
+
+#: passkeys/public/js/passkey_settings.js:73
+msgid "Yes, change it"
+msgstr "Ja, wijzigen"
+
+#: passkeys/api/registration.py:201
+msgid "You have reached the maximum of {0} passkeys."
+msgstr "Je hebt het maximum van {0} passkeys bereikt."
+
+#: passkeys/notifications.py:95
+msgid "You signed in with a one-time code instead of your passkey"
+msgstr "Je hebt ingelogd met een eenmalige code in plaats van je passkey"
+
+#: passkeys/state.py:169
+msgid "You've hit the rate limit. Please try again shortly."
+msgstr "Je hebt de limiet bereikt. Probeer het zo meteen opnieuw."
+
+#: passkeys/notifications.py:96
+msgid ""
+"Your account has a passkey, but a recent sign-in on {0} used a one-time "
+"code (OTP) instead. If this wasn't you, review your account security."
+msgstr ""
+"Je account heeft een passkey, maar bij een recente keer inloggen op {0} "
+"is een eenmalige code (OTP) gebruikt. Was jij dit niet? Controleer dan de"
+" beveiliging van je account."
+
+#: passkeys/posture.py:180
+msgid "a verification code"
+msgstr "een verificatiecode"
+
+#: passkeys/notifications.py:78
+msgid "anomaly"
+msgstr "afwijking"
+
+#: passkeys/well_known.py:72
+msgid "apple-app-site-association is not configured."
+msgstr "apple-app-site-association is niet ingesteld."
+
+#: passkeys/well_known.py:59
+msgid "assetlinks.json is not configured."
+msgstr "assetlinks.json is niet ingesteld."
+
+#. Description of the 'Public Key' (Text) field in DocType 'WebAuthn
+#. Credential'
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.json
+msgid "base64url COSE public key bytes, stored verbatim"
+msgstr "base64url COSE-publieke-sleutelbytes, ongewijzigd opgeslagen"
+
+#. Description of the 'Handle' (Data) field in DocType 'WebAuthn User Handle'
+#: passkeys/passkeys/doctype/webauthn_user_handle/webauthn_user_handle.json
+msgid "base64url of 64 random bytes — the WebAuthn user.id; immutable forever"
+msgstr ""
+"base64url van 64 willekeurige bytes — de WebAuthn user.id; blijft altijd "
+"hetzelfde"
+
+#. Description of the 'Credential ID' (Long Text) field in DocType 'WebAuthn
+#. Credential'
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.json
+msgid "base64url; the spec allows up to 1023 bytes"
+msgstr "base64url; de specificatie staat tot 1023 bytes toe"
+
+#. Option for the 'Authenticator Attachment' (Select) field in DocType
+#. 'WebAuthn Credential'
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.json
+msgid "cross-platform"
+msgstr "cross-platform"
+
+#: passkeys/posture.py:199
+msgid "email-link sign-in"
+msgstr "inloggen via e-maillink"
+
+#. Label of the passkey_ios_bundle_id (Data) field in DocType 'Passkey
+#. Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "iOS Bundle ID"
+msgstr "iOS Bundle ID"
+
+#: passkeys/well_known.py:120
+msgid "iOS Bundle ID must be in reverse-DNS form, for example com.example.app."
+msgstr ""
+"iOS Bundle ID moet in omgekeerde DNS-vorm zijn, bijvoorbeeld "
+"com.example.app."
+
+#. Label of the passkey_ios_team_id (Data) field in DocType 'Passkey Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid "iOS Team ID"
+msgstr "iOS Team ID"
+
+#: passkeys/well_known.py:117
+msgid ""
+"iOS Team ID must be 10 uppercase letters or digits, for example "
+"ABCDE12345."
+msgstr ""
+"iOS Team ID moet uit 10 hoofdletters of cijfers bestaan, bijvoorbeeld "
+"ABCDE12345."
+
+#. Description of the 'iOS Bundle ID' (Data) field in DocType 'Passkey
+#. Settings'
+#: passkeys/passkeys/doctype/passkey_settings/passkey_settings.json
+msgid ""
+"iOS bundle identifier for apple-app-site-association, e.g. "
+"com.example.app. Team ID and Bundle ID are both required to serve the "
+"file."
+msgstr ""
+"iOS bundle-identifier voor apple-app-site-association, bijvoorbeeld "
+"com.example.app. Team ID en Bundle ID zijn allebei nodig om het bestand "
+"aan te bieden."
+
+#: passkeys/posture.py:95
+msgid "password sign-in"
+msgstr "inloggen met wachtwoord"
+
+#. Option for the 'Authenticator Attachment' (Select) field in DocType
+#. 'WebAuthn Credential'
+#: passkeys/passkeys/doctype/webauthn_credential/webauthn_credential.json
+msgid "platform"
+msgstr "platform"
+
+#: passkeys/posture.py:121
+msgid "social login"
+msgstr "social login"
+
+#: passkeys/posture.py:278
+msgid "the Administrator password"
+msgstr "het wachtwoord van Administrator"
+
+#: passkeys/policy.py:48
+msgid "the Python child process could not start: {0}"
+msgstr "het Python-kindproces kon niet starten: {0}"
+
+#: passkeys/policy.py:51
+msgid "the dependency check exited with status {0}"
+msgstr "de controle van afhankelijkheden is gestopt met status {0}"
+
+#: passkeys/policy.py:44
+msgid "the dependency check timed out after {0} seconds"
+msgstr "de controle van afhankelijkheden is na {0} seconden afgebroken"
+
+#: passkeys/install.py:442
+msgid "{0} belongs to a different site."
+msgstr "{0} hoort bij een andere site."
+
+#: passkeys/install.py:447
+msgid "{0} failed credential-export integrity verification."
+msgstr "{0} voldoet niet aan de integriteitscontrole van de credential-export."
+
+#: passkeys/install.py:452
+msgid "{0} has an invalid credential-export structure."
+msgstr "{0} heeft een ongeldige structuur voor een credential-export."
+
+#: passkeys/install.py:454
+msgid "{0} has inconsistent credential-export counts."
+msgstr "{0} heeft inconsistente aantallen voor een credential-export."
+
+#: passkeys/install.py:445
+msgid "{0} has no supported export signature."
+msgstr "{0} heeft geen ondersteunde handtekening voor een export."
+
+#: passkeys/install.py:438
+msgid "{0} is not a passkeys credential export."
+msgstr "{0} is geen export van passkeys-credentials."
+
+#: passkeys/notifications.py:123
+msgid ""
+"{0} is required to register a passkey to keep signing in, but reports "
+"that their device cannot create one. Consider granting this user an "
+"exemption from the Passkeys section of their User form, resetting their "
+"grace budget, or issuing a hardware security key."
+msgstr ""
+"{0} moet een passkey registreren om te kunnen blijven inloggen, maar "
+"meldt dat het apparaat er geen kan maken. Overweeg deze gebruiker een "
+"vrijstelling te geven in het onderdeel Passkeys van het "
+"gebruikersformulier, het uitstel opnieuw in te stellen, of een hardware-"
+"beveiligingssleutel uit te geven."
+
+#: passkeys/posture.py:236
+msgid "{0} of {1} users use passwordless-only login."
+msgstr "{0} van {1} gebruikers gebruiken alleen inloggen zonder wachtwoord."
+
+#: passkeys/install.py:440
+msgid "{0} uses an unsupported passkeys export version."
+msgstr "{0} gebruikt een niet-ondersteunde exportversie van passkeys."
+
+
+#: passkeys/public/js/passkey_common.bundle.js
+msgid "Confirm action"
+msgstr "Actie bevestigen"
+
+#: passkeys/public/js/passkey_common.bundle.js
+msgid "Confirmation didn't complete."
+msgstr "Het bevestigen is niet gelukt."
+
+#: passkeys/public/js/passkey_common.bundle.js
+msgid "Couldn't complete passkey sign-in."
+msgstr "Inloggen met een passkey is niet gelukt."
+
+#: passkeys/public/js/passkey_common.bundle.js
+msgid "Couldn't reach the confirmation service — try again."
+msgstr "De bevestigingsservice is niet bereikbaar — probeer het opnieuw."
+
+#: passkeys/public/js/passkey_common.bundle.js
+msgid "Couldn't reach the passkey service — try again."
+msgstr "De passkey-service is niet bereikbaar — probeer het opnieuw."
+
+#: passkeys/public/js/passkey_common.bundle.js
+msgid "Couldn't reach the server — try again."
+msgstr "De server is niet bereikbaar — probeer het opnieuw."
+
+#: passkeys/public/js/passkey_common.bundle.js
+msgid "Couldn't start confirmation."
+msgstr "Het bevestigen kon niet starten."
+
+#: passkeys/public/js/passkey_common.bundle.js
+msgid "Couldn't use a passkey — sign in another way."
+msgstr "Je kon geen passkey gebruiken — log op een andere manier in."
+
+#: passkeys/public/js/passkey_common.bundle.js
+msgid "Manage passkeys"
+msgstr "Passkeys beheren"
+
+#: passkeys/public/js/passkey_common.bundle.js
+msgid "No passkey was used — you can try again or sign in another way."
+msgstr "Er is geen passkey gebruikt — je kunt het opnieuw proberen of op een andere manier inloggen."
+
+#: passkeys/public/js/passkey_common.bundle.js
+msgid "No usable passkey was found."
+msgstr "Er is geen bruikbare passkey gevonden."
+
+#: passkeys/public/js/passkey_common.bundle.js
+msgid "Passkey confirmation isn't available here."
+msgstr "Bevestigen met een passkey is hier niet beschikbaar."
+
+#: passkeys/public/js/passkey_common.bundle.js
+msgid "Passkey sign-in was cancelled."
+msgstr "Inloggen met een passkey is geannuleerd."
+
+#: passkeys/public/js/passkey_common.bundle.js
+msgid "Passkeys aren't available on this page."
+msgstr "Passkeys zijn niet beschikbaar op deze pagina."
+
+#: passkeys/public/js/passkey_common.bundle.js
+msgid "Passkeys aren't supported on this device."
+msgstr "Passkeys worden niet ondersteund op dit apparaat."
+
+#: passkeys/public/js/passkey_common.bundle.js
+msgid "Still verifying — this can take a moment on a slow connection."
+msgstr "Nog bezig met controleren — dit kan even duren bij een trage verbinding."
+
+#: passkeys/public/js/passkey_common.bundle.js
+msgid "That didn't work — please try again."
+msgstr "Dat is niet gelukt — probeer het opnieuw."
+
+#: passkeys/public/js/passkey_common.bundle.js
+msgid "That passkey can't be used here."
+msgstr "Die passkey kan hier niet worden gebruikt."
+
+#: passkeys/public/js/passkey_common.bundle.js
+msgid "That passkey didn't confirm it's you. Try again, or use your password."
+msgstr "Die passkey bevestigde niet dat jij het bent. Probeer het opnieuw of gebruik je wachtwoord."
+
+#: passkeys/public/js/passkey_common.bundle.js
+msgid "That passkey didn't work here — it may have been removed. Sign in another way."
+msgstr "Die passkey werkte hier niet — misschien is hij verwijderd. Log op een andere manier in."
+
+#: passkeys/public/js/passkey_common.bundle.js
+msgid "That password wasn't right. Try again."
+msgstr "Dat wachtwoord klopt niet. Probeer het opnieuw."
+
+#: passkeys/public/js/passkey_common.bundle.js
+msgid "The action couldn't be confirmed — please try again."
+msgstr "De actie kon niet worden bevestigd — probeer het opnieuw."
+
+#: passkeys/public/js/passkey_common.bundle.js
+msgid "This device can't use passkeys yet — sign in with your password instead."
+msgstr "Dit apparaat kan nog geen passkeys gebruiken — log in met je wachtwoord."
+
+#: passkeys/public/js/passkey_common.bundle.js
+msgid "This needs you to confirm it's you, but this sign-in can't be confirmed with a passkey or password. Sign in again with your password or a passkey, then try again."
+msgstr "Je moet bevestigen dat jij het bent, maar dat kan met deze sessie niet met een passkey of wachtwoord. Log opnieuw in met je wachtwoord of een passkey en probeer het dan nog eens."
+
+#: passkeys/public/js/passkey_common.bundle.js
+msgid "Too many attempts. Try again later."
+msgstr "Te veel pogingen. Probeer het later opnieuw."
+
+#: passkeys/public/js/passkey_common.bundle.js
+msgid "Verifying your signature…"
+msgstr "Je handtekening wordt gecontroleerd…"
+
+#: passkeys/public/js/passkey_common.bundle.js
+msgid "Waiting for your device…"
+msgstr "Wachten op je apparaat…"
+
+#: passkeys/public/js/passkey_common.bundle.js
+msgid "Waiting for your passkey…"
+msgstr "Wachten op je passkey…"
+
+#: passkeys/public/js/passkey_common.bundle.js
+msgid "We confirmed it's you, but the action still didn't go through — please try again."
+msgstr "We hebben bevestigd dat jij het bent, maar de actie is toch niet uitgevoerd — probeer het opnieuw."
+
+#: passkeys/public/js/passkey_common.bundle.js
+msgid "You're in — taking you through…"
+msgstr "Je bent binnen — we sturen je door…"
+
+#: passkeys/public/js/passkey_confirm.bundle.js
+#: passkeys/public/js/passkey_portal.bundle.js
+msgid "Action details"
+msgstr "Details van de actie"
+
+#: passkeys/public/js/passkey_confirm.bundle.js
+#: passkeys/public/js/passkey_login.bundle.js
+#: passkeys/public/js/passkey_portal.bundle.js
+msgid "Confirm"
+msgstr "Bevestigen"
+
+#: passkeys/public/js/passkey_confirm.bundle.js
+#: passkeys/public/js/passkey_login.bundle.js
+#: passkeys/public/js/passkey_portal.bundle.js
+msgid "Confirm it's you"
+msgstr "Bevestig dat jij het bent"
+
+#: passkeys/public/js/passkey_confirm.bundle.js
+msgid "Confirm this action with a passkey"
+msgstr "Bevestig deze actie met een passkey"
+
+#: passkeys/public/js/passkey_confirm.bundle.js
+#: passkeys/public/js/passkey_portal.bundle.js
+msgid "Confirm with passkey"
+msgstr "Bevestigen met passkey"
+
+#: passkeys/public/js/passkey_confirm.bundle.js
+msgid "Confirm with your password"
+msgstr "Bevestig met je wachtwoord"
+
+#: passkeys/public/js/passkey_confirm.bundle.js
+#: passkeys/public/js/passkey_portal.bundle.js
+msgid "Confirm your password to continue."
+msgstr "Bevestig je wachtwoord om door te gaan."
+
+#: passkeys/public/js/passkey_confirm.bundle.js
+#: passkeys/public/js/passkey_portal.bundle.js
+msgid "Confirm {0} with your passkey."
+msgstr "Bevestig met je passkey: {0}."
+
+#: passkeys/public/js/passkey_confirm.bundle.js
+#: passkeys/public/js/passkey_portal.bundle.js
+msgid "Confirmation was cancelled."
+msgstr "Bevestigen is geannuleerd."
+
+#: passkeys/public/js/passkey_confirm.bundle.js
+#: passkeys/public/js/passkey_login.bundle.js
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: passkeys/public/js/passkey_confirm.bundle.js
+#: passkeys/public/js/passkey_portal.bundle.js
+msgid "This sign-in hasn't been strongly verified recently. To manage your passkeys, confirm it's you below."
+msgstr "Dit inloggen is de laatste tijd niet sterk gecontroleerd. Bevestig hieronder dat jij het bent om je passkeys te beheren."
+
+#: passkeys/public/js/passkey_confirm.bundle.js
+#: passkeys/public/js/passkey_portal.bundle.js
+msgid "Use your password instead"
+msgstr "Gebruik in plaats daarvan je wachtwoord"
+
+#: passkeys/public/js/passkey_desk.bundle.js
+#: passkeys/public/js/passkey_portal.bundle.js
+msgid "Confirming it's you…"
+msgstr "Bevestigen dat jij het bent…"
+
+#: passkeys/public/js/passkey_desk.bundle.js
+msgid "Couldn't add passkey"
+msgstr "Passkey toevoegen mislukt"
+
+#: passkeys/public/js/passkey_desk.bundle.js
+msgid "Couldn't change passwordless login"
+msgstr "Inloggen zonder wachtwoord wijzigen mislukt"
+
+#: passkeys/public/js/passkey_desk.bundle.js
+#: passkeys/public/js/passkey_portal.bundle.js
+msgid "Couldn't change passwordless login."
+msgstr "Inloggen zonder wachtwoord kon niet worden gewijzigd."
+
+#: passkeys/public/js/passkey_desk.bundle.js
+#: passkeys/public/js/passkey_portal.bundle.js
+msgid "Couldn't load your passkeys."
+msgstr "Je passkeys konden niet worden geladen."
+
+#: passkeys/public/js/passkey_desk.bundle.js
+msgid "Couldn't remove passkey"
+msgstr "Passkey verwijderen mislukt"
+
+#: passkeys/public/js/passkey_desk.bundle.js
+#: passkeys/public/js/passkey_portal.bundle.js
+msgid "Couldn't remove the passkey."
+msgstr "De passkey kon niet worden verwijderd."
+
+#: passkeys/public/js/passkey_desk.bundle.js
+#: passkeys/public/js/passkey_portal.bundle.js
+msgid "Couldn't rename the passkey."
+msgstr "De passkey kon niet worden hernoemd."
+
+#: passkeys/public/js/passkey_desk.bundle.js
+#: passkeys/public/js/passkey_portal.bundle.js
+msgid "Follow your device's prompt to add a passkey…"
+msgstr "Volg de aanwijzingen op je apparaat om een passkey toe te voegen…"
+
+#: passkeys/public/js/passkey_desk.bundle.js
+#: passkeys/public/js/passkey_portal.bundle.js
+msgid "Loading your passkeys…"
+msgstr "Je passkeys worden geladen…"
+
+#: passkeys/public/js/passkey_desk.bundle.js
+msgid "Manage in the WebAuthn Credential list"
+msgstr "Beheren in de lijst WebAuthn Credential"
+
+#: passkeys/public/js/passkey_desk.bundle.js
+#: passkeys/public/js/passkey_portal.bundle.js
+msgid "Passkey added."
+msgstr "Passkey toegevoegd."
+
+#: passkeys/public/js/passkey_desk.bundle.js
+#: passkeys/public/js/passkey_portal.bundle.js
+msgid "Passkey removed."
+msgstr "Passkey verwijderd."
+
+#: passkeys/public/js/passkey_desk.bundle.js
+#: passkeys/public/js/passkey_portal.bundle.js
+msgid "Passkey renamed."
+msgstr "Passkey hernoemd."
+
+#: passkeys/public/js/passkey_desk.bundle.js
+msgid "Passkeys"
+msgstr "Passkeys"
+
+#: passkeys/public/js/passkey_desk.bundle.js
+#: passkeys/public/js/passkey_portal.bundle.js
+msgid "Password login will be allowed for your account again."
+msgstr "Inloggen met een wachtwoord is voor je account weer toegestaan."
+
+#: passkeys/public/js/passkey_desk.bundle.js
+#: passkeys/public/js/passkey_portal.bundle.js
+msgid "Passwordless login is off."
+msgstr "Inloggen zonder wachtwoord staat uit."
+
+#: passkeys/public/js/passkey_desk.bundle.js
+#: passkeys/public/js/passkey_portal.bundle.js
+msgid "Passwordless login is on."
+msgstr "Inloggen zonder wachtwoord staat aan."
+
+#: passkeys/public/js/passkey_desk.bundle.js
+#: passkeys/public/js/passkey_portal.bundle.js
+msgid "Reload"
+msgstr "Opnieuw laden"
+
+#: passkeys/public/js/passkey_desk.bundle.js
+#: passkeys/public/js/passkey_portal.bundle.js
+msgid "Rename passkey"
+msgstr "Passkey hernoemen"
+
+#: passkeys/public/js/passkey_desk.bundle.js
+#: passkeys/public/js/passkey_portal.bundle.js
+msgid "Save"
+msgstr "Opslaan"
+
+#: passkeys/public/js/passkey_desk.bundle.js
+#: passkeys/public/js/passkey_portal.bundle.js
+msgid "This browser can't create passkeys."
+msgstr "Deze browser kan geen passkeys maken."
+
+#: passkeys/public/js/passkey_desk.bundle.js
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "This user has no passkeys."
+msgstr "Deze gebruiker heeft geen passkeys."
+
+#: passkeys/public/js/passkey_desk.bundle.js
+#: passkeys/public/js/passkey_portal.bundle.js
+msgid "Turn off passwordless login"
+msgstr "Inloggen zonder wachtwoord uitzetten"
+
+#: passkeys/public/js/passkey_desk.bundle.js
+#: passkeys/public/js/passkey_portal.bundle.js
+msgid "Turn off passwordless login?"
+msgstr "Inloggen zonder wachtwoord uitzetten?"
+
+#: passkeys/public/js/passkey_desk.bundle.js
+#: passkeys/public/js/passkey_portal.bundle.js
+msgid "Turn on passwordless login"
+msgstr "Inloggen zonder wachtwoord aanzetten"
+
+#: passkeys/public/js/passkey_desk.bundle.js
+#: passkeys/public/js/passkey_portal.bundle.js
+msgid "Turn on passwordless login?"
+msgstr "Inloggen zonder wachtwoord aanzetten?"
+
+#: passkeys/public/js/passkey_desk.bundle.js
+#: passkeys/public/js/passkey_portal.bundle.js
+msgid "Turning on passwordless login means you will not be able to log in with a password — only a passkey. Keep at least two passkeys so a lost device never locks you out."
+msgstr "Als je inloggen zonder wachtwoord aanzet, kun je niet meer inloggen met een wachtwoord, alleen nog met een passkey. Houd minstens twee passkeys, zodat je nooit buitengesloten raakt als je een apparaat kwijtraakt."
+
+#: passkeys/public/js/passkey_headless.bundle.js
+msgid "Passkey creation was cancelled."
+msgstr "Het maken van de passkey is geannuleerd."
+
+#: passkeys/public/js/passkey_login.bundle.js
+msgid "Back to sign in"
+msgstr "Terug naar inloggen"
+
+#: passkeys/public/js/passkey_login.bundle.js
+msgid "Confirm your password once to finish setting up this passkey."
+msgstr "Bevestig één keer je wachtwoord om deze passkey af te ronden."
+
+#: passkeys/public/js/passkey_login.bundle.js
+msgid "Couldn't open verification-code sign-in. Return to sign in or contact your administrator."
+msgstr "Inloggen met een verificatiecode kon niet worden geopend. Ga terug naar inloggen of neem contact op met je beheerder."
+
+#: passkeys/public/js/passkey_login.bundle.js
+msgid "Couldn't start passkey sign-in — try again or sign in another way."
+msgstr "Inloggen met een passkey kon niet starten — probeer het opnieuw of log op een andere manier in."
+
+#: passkeys/public/js/passkey_login.bundle.js
+msgid "Finish setting up this passkey"
+msgstr "Rond deze passkey af"
+
+#: passkeys/public/js/passkey_login.bundle.js
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Not now"
+msgstr "Niet nu"
+
+#: passkeys/public/js/passkey_login.bundle.js
+msgid "Opening verification-code sign-in..."
+msgstr "Inloggen met een verificatiecode wordt geopend..."
+
+#: passkeys/public/js/passkey_login.bundle.js
+msgid "Passkey verification is unavailable. Contact your administrator or return to sign in."
+msgstr "Controleren met een passkey is niet beschikbaar. Neem contact op met je beheerder of ga terug naar inloggen."
+
+#: passkeys/public/js/passkey_login.bundle.js
+msgid "Passkey verification unavailable"
+msgstr "Controleren met een passkey is niet beschikbaar"
+
+#: passkeys/public/js/passkey_login.bundle.js
+msgid "Passkeys aren't available right now."
+msgstr "Passkeys zijn nu niet beschikbaar."
+
+#: passkeys/public/js/passkey_login.bundle.js
+msgid "Passkeys aren't supported on this device, and no verification-code fallback is available. Contact your administrator or return to sign in."
+msgstr "Passkeys worden niet ondersteund op dit apparaat en er is geen terugval met een verificatiecode beschikbaar. Neem contact op met je beheerder of ga terug naar inloggen."
+
+#: passkeys/public/js/passkey_login.bundle.js
+msgid "Passkeys aren't supported on this device. Use a verification code to finish signing in."
+msgstr "Passkeys worden niet ondersteund op dit apparaat. Gebruik een verificatiecode om het inloggen af te ronden."
+
+#: passkeys/public/js/passkey_login.bundle.js
+msgid "Password is required."
+msgstr "Wachtwoord is verplicht."
+
+#: passkeys/public/js/passkey_login.bundle.js
+msgid "Sign in with a passkey"
+msgstr "Inloggen met een passkey"
+
+#: passkeys/public/js/passkey_login.bundle.js
+msgid "That didn't work — check your password and try again."
+msgstr "Dat is niet gelukt — controleer je wachtwoord en probeer het opnieuw."
+
+#: passkeys/public/js/passkey_login.bundle.js
+msgid "That didn't work — try your passkey again."
+msgstr "Dat is niet gelukt — probeer je passkey opnieuw."
+
+#: passkeys/public/js/passkey_login.bundle.js
+msgid "That passkey couldn't be verified — try again."
+msgstr "Die passkey kon niet worden gecontroleerd — probeer het opnieuw."
+
+#: passkeys/public/js/passkey_login.bundle.js
+msgid "Too many attempts. Wait a moment, then try again."
+msgstr "Te veel pogingen. Wacht even en probeer het dan opnieuw."
+
+#: passkeys/public/js/passkey_login.bundle.js
+msgid "Use a passkey"
+msgstr "Een passkey gebruiken"
+
+#: passkeys/public/js/passkey_login.bundle.js
+msgid "Use a verification code"
+msgstr "Een verificatiecode gebruiken"
+
+#: passkeys/public/js/passkey_login.bundle.js
+msgid "Use a verification code instead"
+msgstr "Gebruik liever een verificatiecode"
+
+#: passkeys/public/js/passkey_login.bundle.js
+msgid "Use your passkey to finish signing in."
+msgstr "Gebruik je passkey om het inloggen af te ronden."
+
+#: passkeys/public/js/passkey_login.bundle.js
+msgid "Verifying…"
+msgstr "Controleren…"
+
+#: passkeys/public/js/passkey_login.bundle.js
+msgid "Waiting for your passkey."
+msgstr "Wachten op je passkey."
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "A passkey lets you sign in with your fingerprint, face, screen lock, or a security key — no password to remember or type."
+msgstr "Met een passkey log je in met je vingerafdruk, gezicht, schermvergrendeling of een beveiligingssleutel — zonder wachtwoord om te onthouden of te typen."
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Add a passkey"
+msgstr "Een passkey toevoegen"
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Add a passkey and skip the password next time — sign in with your fingerprint, face, or screen lock instead."
+msgstr "Voeg een passkey toe en sla de volgende keer het wachtwoord over — log in met je vingerafdruk, gezicht of schermvergrendeling."
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Add a passkey to this device"
+msgstr "Een passkey toevoegen aan dit apparaat"
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Add at least two enabled passkeys before turning off password sign-in."
+msgstr "Voeg minstens twee ingeschakelde passkeys toe voordat je inloggen met een wachtwoord uitzet."
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Added"
+msgstr "Toegevoegd"
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Available on your other devices"
+msgstr "Beschikbaar op je andere apparaten"
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Both passkey login modes are off — the login-page passkey UI is hidden and no new passkeys can be used to sign in. Existing passkeys are preserved."
+msgstr "Beide inlogmodi met passkey staan uit — de passkey-knop op de inlogpagina is verborgen en er kunnen geen passkeys worden gebruikt om in te loggen. Bestaande passkeys blijven bewaard."
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Changing the RP ID invalidates every existing passkey. This cannot be undone."
+msgstr "Als je de RP ID wijzigt, werken alle bestaande passkeys niet meer. Dit kan niet ongedaan worden gemaakt."
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Contact administrator"
+msgstr "Contact opnemen met beheerder"
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Couldn't add a passkey — please try again."
+msgstr "Het toevoegen van een passkey is niet gelukt — probeer het opnieuw."
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Couldn't save your choice — please try again."
+msgstr "Je keuze kon niet worden opgeslagen — probeer het opnieuw."
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Couldn't update enforcement for this user — please try again."
+msgstr "De verplichting voor deze gebruiker kon niet worden bijgewerkt — probeer het opnieuw."
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Create a passkey"
+msgstr "Een passkey maken"
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Delete passkey {0}"
+msgstr "Passkey {0} verwijderen"
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Device-bound"
+msgstr "Gebonden aan apparaat"
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Don't ask again"
+msgstr "Niet meer vragen"
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Enrollment enforcement has no effect while both passkey login modes are off. Enable a passkey login mode for the policy to apply."
+msgstr "Het verplicht instellen van een passkey doet niets zolang beide passkey-inlogmodi uitstaan. Schakel een inlogmodus met passkey in om het beleid te laten werken."
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Exempt from enforcement"
+msgstr "Vrijgesteld van verplichting"
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Exempt from passkey enforcement"
+msgstr "Vrijgesteld van de passkey-verplichting"
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Exemption removed — {0} is enforced again."
+msgstr "Vrijstelling opgeheven — voor {0} geldt de verplichting weer."
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Grace logins used: {0} of {1} ({2} remaining)."
+msgstr "Keren uitstel gebruikt: {0} van {1} ({2} over)."
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Grace reset — {0} sign-ins to enroll before it blocks."
+msgstr "Uitstel opnieuw ingesteld — {0} keer inloggen om een passkey in te stellen voordat het blokkeert."
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "I can't set one up here"
+msgstr "Ik kan er hier geen instellen"
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "In scope — already has a passkey"
+msgstr "Binnen bereik — heeft al een passkey"
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "In scope — must enroll a passkey"
+msgstr "Binnen bereik — moet een passkey instellen"
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Incapable Device Policy is 'Block + Notify Admin': users on devices that cannot create a passkey (and cannot use a phone) will be blocked rather than nudged."
+msgstr "Het beleid voor apparaten die dit niet kunnen staat op 'Blokkeren + beheerder waarschuwen': gebruikers op apparaten die geen passkey kunnen maken (en geen telefoon kunnen gebruiken) worden geblokkeerd in plaats van herinnerd."
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Last used"
+msgstr "Laatst gebruikt"
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Never used yet"
+msgstr "Nog nooit gebruikt"
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "New name for this passkey"
+msgstr "Nieuwe naam voor deze passkey"
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "No Relying Party ID can be resolved, so passkeys cannot be enabled and sign-in will fail. Fix it one of two ways: set host_name in the site config (site_config.json) to this site's domain, or enter an explicit Passkey RP ID (a bare host name like {0}) in the field below."
+msgstr "Er is geen Relying Party ID te bepalen, dus passkeys kunnen niet worden ingeschakeld en inloggen mislukt. Los dit op een van twee manieren op: stel host_name in de site-config (site_config.json) in op het domein van deze site, of vul hieronder een eigen Passkey RP ID in (een kale hostnaam zoals {0})."
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Not counted yet"
+msgstr "Nog niet geteld"
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Not in enforcement scope"
+msgstr "Niet binnen het bereik van de verplichting"
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Passkey enrollment enforcement"
+msgstr "Verplicht passkey instellen"
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Passkey second factor needs core two-factor authentication enabled first."
+msgstr "Passkey als tweede factor vereist dat eerst de standaard tweestapsverificatie is ingeschakeld."
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Passkeys are read-only while you impersonate this user."
+msgstr "Passkeys zijn alleen te bekijken zolang je deze gebruiker nabootst."
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Password login is disabled site-wide, so passkey second factor can never run for password logins."
+msgstr "Inloggen met wachtwoord is voor de hele site uitgeschakeld, dus passkey als tweede factor kan nooit worden gebruikt bij inloggen met wachtwoord."
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Passwordless login only"
+msgstr "Alleen inloggen zonder wachtwoord"
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Remind me later (sign-ins left: {0})"
+msgstr "Herinner me later (nog {0} keer inloggen)"
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Remove enforcement exemption"
+msgstr "Vrijstelling opheffen"
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Remove passkey"
+msgstr "Passkey verwijderen"
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Remove this passkey?"
+msgstr "Deze passkey verwijderen?"
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Rename passkey {0}"
+msgstr "Passkey {0} hernoemen"
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Require a passkey from is 'Selected roles' but no roles are listed, so it applies to nobody. Add the roles to require, or switch to 'All users'."
+msgstr "'Passkey verplicht voor' staat op 'Geselecteerde rollen', maar er zijn geen rollen opgegeven, dus het geldt voor niemand. Voeg de rollen toe die je wilt verplichten, of kies 'Alle gebruikers'."
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Reset grace logins"
+msgstr "Uitstel opnieuw instellen"
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Set up a passkey to continue"
+msgstr "Stel een passkey in om door te gaan"
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Sign in faster next time"
+msgstr "De volgende keer sneller inloggen"
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Sign out"
+msgstr "Uitloggen"
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Stays on this device only"
+msgstr "Blijft alleen op dit apparaat"
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Synced"
+msgstr "Gesynchroniseerd"
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "The resolved RP ID / origins do not match this site's current host — passkey sign-in will fail here until this is corrected."
+msgstr "De bepaalde RP ID / origins komen niet overeen met de huidige host van deze site — inloggen met een passkey mislukt hier totdat dit is gecorrigeerd."
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "The saved policy would require a passkey from {0} in-scope user(s) who do not have one yet. Counted at {1}."
+msgstr "Het opgeslagen beleid maakt een passkey verplicht voor {0} gebruiker(s) binnen het bereik die er nog geen hebben. Geteld op {1}."
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "This change would leave {0} passwordless-only user(s) with no way to sign in. Clear their passwordless-only flag first."
+msgstr "Door deze wijziging kunnen {0} gebruiker(s) die alleen zonder wachtwoord inloggen niet meer inloggen. Haal eerst hun instelling voor alleen inloggen zonder wachtwoord weg."
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "This device already has a passkey for this account."
+msgstr "Dit apparaat heeft al een passkey voor dit account."
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "This passkey was flagged and disabled for your security."
+msgstr "Deze passkey is gemarkeerd en voor je veiligheid uitgeschakeld."
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Try passkey setup again"
+msgstr "Passkey opnieuw instellen"
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Turn off password sign-in for your account. Needs at least two passkeys so a lost device never locks you out."
+msgstr "Zet inloggen met een wachtwoord uit voor je account. Je hebt minstens twee passkeys nodig, zodat je nooit buitengesloten raakt als je een apparaat kwijtraakt."
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Turning off change notifications removes the main safeguard against a hijacked session silently adding a passkey."
+msgstr "Als je meldingen over wijzigingen uitzet, verdwijnt de belangrijkste bescherming tegen een gekaapte sessie die ongemerkt een passkey toevoegt."
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Unknown provider"
+msgstr "Onbekende aanbieder"
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "We've let your administrator know. Please contact them to finish signing in."
+msgstr "We hebben je beheerder op de hoogte gebracht. Neem contact met die persoon op om het inloggen af te ronden."
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "You just signed in from another device. Add a passkey here to sign in directly next time."
+msgstr "Je bent zojuist ingelogd vanaf een ander apparaat. Voeg hier een passkey toe om de volgende keer direct in te loggen."
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "You won't be able to sign in with {0} after this."
+msgstr "Je kunt hierna niet meer inloggen met {0}."
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "Your organization requires a passkey to keep signing in. It only takes a moment — use your fingerprint, face, screen lock, or a security key."
+msgstr "Je organisatie eist een passkey om te kunnen blijven inloggen. Het kost maar even — gebruik je vingerafdruk, gezicht, schermvergrendeling of een beveiligingssleutel."
+
+#: passkeys/public/js/passkey_manage_common.bundle.js
+msgid "{0} is now exempt from passkey enforcement."
+msgstr "{0} is nu vrijgesteld van de passkey-verplichting."
+
+#: passkeys/public/js/passkey_portal.bundle.js
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: passkeys/public/js/passkey_portal.bundle.js
+msgid "Confirm {0} to continue."
+msgstr "Bevestig om door te gaan: {0}."
+
+#: passkeys/public/js/passkey_portal.bundle.js
+msgid "Renaming passkey…"
+msgstr "Passkey wordt hernoemd…"
